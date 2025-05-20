@@ -15,6 +15,7 @@
     <meta property="og:description" content="{{ description }}">
     <meta property="og:url" content="https://sickfunny.co{{ page.url }}">
     <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="/favicon.png">
     <link rel="stylesheet" href="{{ 'src/css/styles.css' | hashedCss }}" />
   </head>
   <body>
@@ -23,7 +24,7 @@
       <div class="title"><a href="/" rel="home" aria-label="sickfunny homepage"><strong>sick</strong>funny x&#41;</a></div>
     </header>
 
-    <nav>
+    <nav aria-label="Tag navigation">
       <ul>
         <li><a href="/tags/all">all (3)</a></li>
         <li><a href="/tags/programming">programming (2)</a></li>
