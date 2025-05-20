@@ -26,9 +26,9 @@ Starting this project, the requirements for myself were low code and high perfor
 Eleventy is a no-config tool, but to handle transformations for the built assets and create a collection of posts some will be necessary. [Pull requests welcome](https://github.com).
 
 ## THE ART OF LETTING GO
-What is the sacrifice for minimalism? Eleventy provides a small subset of plugins for transformations and utility, but you will quickly need more bloat if you want the modern rich, dynamic client side experience. As a developer you will also miss out on some conveniences—no bundling, no hot module reloads, no batteries included. 
+What is the sacrifice for minimalism? Eleventy provides a small subset of plugins for transformations and utility, but you will quickly need more bloat if you want the modern rich, dynamic client side experience. As a developer you will also miss out on some conveniences. No bundling, no hot module reloads, no batteries included. 
 
-After all it's only a static site generator. The friction is yours to navigate—you'll have to decide what actually matters. And maybe that's the point.
+After all it's only a static site generator. The friction is yours to navigate, you'll have to decide what actually matters. And maybe that's the point.
 
 ## DELIVERED IN 100ms OR ITS FREE
 The final artifacts are hosted in an S3 bucket and served through CloudFront with aggressive caching headers. There's no database, no JS bundle, no loading spinner. Just content rendered ahead of time, sitting quietly, waiting to be seen.

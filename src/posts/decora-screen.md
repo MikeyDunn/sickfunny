@@ -27,7 +27,7 @@ With the window shopping done, the first hurdle is designing the adapter plate. 
 Back to the part where I have very little experience... I spent a few hours in fusion360 before uninstalling and almost calling it quits. I stumbled about another tool called [TinkerCAD](https://www.tinkercad.com/), which I can only imagine was designed for young children to play with. Evidenced by the fact there is a minecraft mode for building your models. But for me this was good enough to put a hole in a plate. [My struggle lives here](/public/decora-adapter.stl).
 
 ## ELECTROCUTING FOR BEGINNERS
-To fit everything inside a light switch box, I needed to power the USB-C based ESP32 directly from the AC wires already in place. The hardware here uses very little amperage, so I picked the smallest AC/DC module I could find—helpfully sold on Amazon. A bit of soldering on the USB pigtail, a couple of junction wires on the other side, and it was ready to ~~start a fire~~ power up.
+To fit everything inside a light switch box, I needed to power the USB-C based ESP32 directly from the AC wires already in place. The hardware here uses very little amperage, so I picked the smallest AC/DC module I could find, helpfully sold on Amazon. A bit of soldering on the USB pigtail, a couple of junction wires on the other side, and it was ready to ~~start a fire~~ power up.
 
 ## PUTTING IT TOGETHER
 The only notes here is that I hot glued the waveshare screen into the adapter. Please check your National Electrical Code for proper installation.
