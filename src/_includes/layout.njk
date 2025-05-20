@@ -23,13 +23,21 @@
       <div class="title"><a href="/" rel="home" aria-label="sickfunny homepage"><strong>sick</strong>funny x&#41;</a></div>
     </header>
 
+    <nav>
+      <ul>
+        <li><a href="/tags/all">all (3)</a></li>
+        <li><a href="/tags/programming">programming (2)</a></li>
+        <li><a href="/tags/smart-home">smart home (1)</a></li>
+      </ul>
+    </nav>
+
     <main role="main">
       {{ content | safe }}
     </main>
     
     <footer>
-      <p>log: build completed — 0 warnings, 0 errors</p>
-      <p>log: loaded in <span id="load-time"></span></p>
+      <div>log: build completed — 0 warnings, 0 errors</div>
+      <div>log: loaded in <span id="load-time"></span></div>
     </footer>
 
     <script>

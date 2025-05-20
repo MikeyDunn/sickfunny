@@ -64,6 +64,19 @@ article, section {
   margin-bottom: 3rem;
 }
 
+nav {
+  margin: 1rem 0 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
 /* Typography */
 strong {
   font-weight: 500;
@@ -92,7 +105,7 @@ p, ul, pre {
   margin-bottom: 2rem;
 }
 
-li {
+article li {
   margin-left: 1.5rem;
 }
 

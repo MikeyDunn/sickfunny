@@ -37,6 +37,16 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection('post', function (collectionApi) {
     return collectionApi.getFilteredByGlob('./src/posts/**/*.md')
   })
+  eleventyConfig.addCollection('tagList', function (collectionApi) {
+    let tagSet = new Set()
+    collectionApi.getAll().forEach(item => {
+      if (item.data.tags) {
+        let tags = Array.isArray(item.data.tags) ? item.data.tags : [item.data.tags]
+        tags.forEach(tag => tagSet.add(tag))
+      }
+    })
+    return [...tagSet, 'all']
+  })
 
   // Minify HTML
   eleventyConfig.addTransform('htmlmin', function (content, outputPath) {

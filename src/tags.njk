@@ -1,0 +1,44 @@
+---
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tag
+permalink: 'tags/{{ tag | slug }}/index.html'
+layout: layout.njk
+title: "Posts tagged '{{ tag }}'"
+---
+
+{% if tag == "all" %}
+  {% set postsForTag = collections.post %}
+{% else %}
+  {% set postsForTag = [] %}
+  {% for post in collections.post %}
+    {% if post.data.tags and tag in post.data.tags %}
+      {% set _ = postsForTag.push(post) %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<section id="posts">
+  {% if tag != "all" %}<h1>Posts tagged &ldquo;{{ tag }}&rdquo;</h1>{% endif %}
+  {% for post in postsForTag %}
+      <article class="post-preview">
+        <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+        <div class="meta">
+          {{ post.date | date }}
+          {% if post.data.readTime %} • {{ post.data.readTime }}{% endif %}
+        </div>
+        <p>{{ post.data.description or "…" }}</p>
+
+        {% if post.data.tags %}
+          <div class="meta">tags:
+            {% for tag in post.data.tags %}
+              <a href="http://localhost:8080/tags/{{ tag | slug }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        <a href="{{ post.url }}">read more →</a>
+      </article>
+  {% endfor %}
+</section>

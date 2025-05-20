@@ -11,7 +11,7 @@ title: {{ title }}
       <br /> 
       tags: 
       {% for tag in tags %}
-        {{ tag }}{% if not loop.last %}, {% endif %}
+        <a href="http://localhost:8080/tags/{{ tag | slug }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
       {% endfor %}
     </i>
   </p>
