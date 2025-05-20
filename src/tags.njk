@@ -33,7 +33,7 @@ title: "Posts tagged '{{ tag }}'"
         {% if post.data.tags %}
           <div class="meta">tags:
             {% for tag in post.data.tags %}
-              <a href="http://localhost:8080/tags/{{ tag | slug }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+              <a href="/tags/{{ tag | slug }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
             {% endfor %}
           </div>
         {% endif %}
