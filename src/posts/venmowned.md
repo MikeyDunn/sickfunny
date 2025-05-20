@@ -4,7 +4,7 @@ eleventyComputed:
   title: "venmowned"
 date: 2025-05-03
 tags:
-  - software
+  - programming
   - cursed
 readTime: "2 minutes"
 author: sickfunny
