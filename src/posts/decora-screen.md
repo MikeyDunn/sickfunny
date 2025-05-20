@@ -9,10 +9,10 @@ tags:
 readTime: "4 minutes"
 author: sickfunny
 description: >
-  Filling the empty void, or at least the space where the "what does this even do" light switch in my living room used to be. I decided to replace it with something more honest: an e-ink display embedded inside the switch box. Another screen in my life sounded like a good idea. Build first; provide purpose later.
+  Filling the empty void, or at least the space where my "what does this even do" light switch in my living room used to be. I decided to replace it with something more honest: an e-ink display embedded inside the switch box. Another screen in my life sounded like a good idea. Build first; provide purpose later.
 ---
 
-Filling the empty void, or at least the space where the "what does this even do" light switch in my living room used to be. I decided to replace it with something more honest: an e-ink display embedded inside the switch box. Another screen in my life sounded like a good idea. Build first; provide purpose later.
+Filling the empty void, or at least the space where my "what does this even do" light switch in my living room used to be. I decided to replace it with something more honest: an e-ink display embedded inside the switch box. Another screen in my life sounded like a good idea. Build first; provide purpose later.
 
 ## PARTS LIST
 [E-Ink ESP32](https://www.amazon.com/dp/B07RM1BBVF)  
