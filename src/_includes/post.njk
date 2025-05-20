@@ -1,9 +1,5 @@
----
-layout: layout.njk
----
-
 <article>
   <h1>{{ title }}</h1>
-  <p><em>{{ date | date("MMMM d, yyyy") }}</em></p>
+  <p><em>{{ page.date | date }}</em></p>
   {{ content | safe }}
 </article>

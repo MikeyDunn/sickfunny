@@ -1,20 +1,21 @@
 {
-  "name": "eleventy-blog",
+  "name": "sickfunny",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "dev": "eleventy --serve",
     "eleventy": "eleventy",
-    "critical": "npx critical _site/index.html --inline --base _site/ --output _site/index.html --minify",
-    "images": "npx eleventy-img src/img/* --output=_site/img/",
-    "build": "npm run eleventy && npm run images && npm run critical"
+    "critical": "node scripts/generateCritical.js",
+    "build": "npm run eleventy && npm run critical"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0",
-    "@11ty/eleventy-img": "^2.0.0",
-    "@11ty/eleventy-plugin-rss": "^1.0.0",
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^6.0.2",
+    "@11ty/eleventy-plugin-rss": "^2.0.3",
     "html-minifier": "^4.0.0"
   },
   "devDependencies": {
+    "critical": "^7.2.1",
     "eslint": "^9.25.1",
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-prettier": "^5.2.6",

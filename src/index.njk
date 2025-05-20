@@ -3,7 +3,7 @@ layout: layout.njk
 title: Home
 ---
 
-<h1>My Blog</h1>
+<h1>My Blog2</h1>
 <ul>
   {% for post in collections.post | reverse %}
     <li><a href="{{ post.url }}">{{ post.data.title }}</a> — {{ post.date | date("MMMM d, yyyy") }}</li>
