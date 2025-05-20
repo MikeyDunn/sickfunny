@@ -70,7 +70,7 @@ description: dark humor, cursed experiments, and weird tools for anyone still bo
         {% if post.data.tags %}
           <p class="meta">tags:
             {% for tag in post.data.tags %}
-              <a href="/tags/{{ tag | slug }}.html">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+              {{ tag }}{% if not loop.last %}, {% endif %}
             {% endfor %}
           </p>
         {% endif %}

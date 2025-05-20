@@ -48,6 +48,16 @@ ul {
   margin-bottom: 1rem;
 }
 
+nav {
+  margin: 2.5rem 0 2.5rem -5px;
+}
+
+nav a {
+  margin-right: 10px;
+  padding: 0 5px;
+  display: inline-block;
+}
+
 /* Typography */
 strong {
   font-weight: 500;
@@ -81,6 +91,10 @@ p {
 
 a {
   color: inherit;
+}
+
+a.current {
+  font-weight: 700;
 }
 
 picture {

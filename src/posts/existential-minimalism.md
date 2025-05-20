@@ -2,7 +2,7 @@
 layout: post.njk
 eleventyComputed:
   title: "existential minimalism via static site generation"
-date: 2025-05-21
+date: 2025-05-15
 tags:
   - webdev
   - minimalism
