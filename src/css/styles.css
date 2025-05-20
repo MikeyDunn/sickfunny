@@ -1,0 +1,184 @@
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and container */
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  color: #111;
+  line-height: 1.6;
+  font-size: 1.125rem;
+  padding: 2rem;
+}
+
+header {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  border-bottom: 1px solid black;
+}
+
+main {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+footer {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  font-family: monospace;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+footer::before {
+  content: '';
+  display: block;
+  width: 100%;
+  border-top: 1px dashed #ccc;
+  margin-bottom: 1rem;
+}
+
+section {
+  margin: 0 0 4rem 0;
+}
+
+/* Typography */
+h1, h2, h3 {
+  line-height: 1.2;
+  font-weight: 100;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 1.5rem;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  letter-spacing: 5px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  margin-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+code {
+  background: #f2f2f2;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.95em;
+  font-family: monospace;
+}
+
+pre {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+
+#merch .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+#merch .container picture {
+  aspect-ratio: 1 / 1;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  background: #f9f9f9;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+#merch .container picture img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.5);
+  transition: transform 0.3s ease;
+  filter: grayscale(0.8);
+}
+
+
+.merch-item a {
+  display: block;
+  text-align: center;
+}
+
+.post-preview {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.post-preview h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+.post-preview .meta {
+  font-size: 0.875rem;
+  color: #aaa;
+  margin: 0.4rem 0 0.2rem;
+}
+
+.post-preview p {
+  margin-bottom: 0;
+}
+
+/* Responsive tweaks */
+@media (max-width: 767px) {
+  body {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  #merch .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

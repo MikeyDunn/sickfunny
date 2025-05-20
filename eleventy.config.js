@@ -5,10 +5,11 @@ import eleventyImage from '@11ty/eleventy-img'
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(rssPlugin)
   eleventyConfig.addPassthroughCopy('img')
+  eleventyConfig.addPassthroughCopy({ 'src/css': 'css' })
+  eleventyConfig.addPassthroughCopy('src/favicon.png')
 
   eleventyConfig.addFilter('date', function (value, format = 'en-US') {
-    const date = new Date(value)
-    return date.toLocaleDateString(format, {
+    return new Date(value).toLocaleDateString(format, {
       year: 'numeric',
       month: 'long',
       day: 'numeric',
@@ -30,6 +31,10 @@ export default function (eleventyConfig) {
     }
 
     return eleventyImage.generateHTML(metadata, imageAttributes)
+  })
+
+  eleventyConfig.addCollection('post', function (collectionApi) {
+    return collectionApi.getFilteredByGlob('./src/posts/**/*.md')
   })
 
   eleventyConfig.addTransform('htmlmin', function (content, outputPath) {

@@ -7,14 +7,35 @@
     <meta name="description" content="{{ title }}">
     <meta property="og:title" content="{{ title }}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://yourdomain.com{{ page.url }}">
-    <meta property="og:image" content="https://yourdomain.com/img/preview.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="icon" href="/img/favicon.ico">
-    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    <meta property="og:url" content="https://sickfunny.co{{ page.url }}">
+    <meta name="description" content="{{ description }}">
+    <meta property="og:description" content="{{ description }}">
+    <link rel="icon" href="/favicon.png" type="image/png">
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    {{ content | safe }}
+
+    <header>
+      <h1><a href="/"><strong>sick</strong>funny x&#41;</a></h1>
+    </header>
+
+    <main>
+      {{ content | safe }}
+    </main>
+    
+    <footer>
+      <p>log: site build completed — 0 warnings, 0 errors</p>
+      <p>log: served in <span id="load-time"></span></p>
+    </footer>
+
+    <script>
+      window.addEventListener('load', () => {
+        const [navigation] = performance.getEntriesByType('navigation');
+        const loadTime = navigation ? Math.round(navigation.domContentLoadedEventEnd) : 0;
+        document.querySelector('#load-time').textContent = `${loadTime}ms`;
+      });
+    </script>
+
+    <script data-goatcounter="https://sickfunny.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   </body>
 </html>
