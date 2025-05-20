@@ -23,7 +23,7 @@ Starting this project, the requirements for myself were low code and high perfor
 - Markdown + Frontmatter for content writing
 - A GitHub Action to build and deploy
 
-Eleventy is a no-config tool, but to handle transformations for the built assets and create a collection of posts some will be necessary. [Pull requests welcome](https://github.com).
+Eleventy is a no-config tool, but to handle transformations for the built assets and create a collection of posts some will be necessary. [Pull requests welcome](https://github.com/MikeyDunn/sickfunny/blob/master/eleventy.config.js).
 
 ## THE ART OF LETTING GO
 What is the sacrifice for minimalism? Eleventy provides a small subset of plugins for transformations and utility, but you will quickly need more bloat if you want the modern rich, dynamic client side experience. As a developer you will also miss out on some conveniences. No bundling, no hot module reloads, no batteries included. 
