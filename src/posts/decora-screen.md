@@ -21,7 +21,7 @@ Filling the empty void, or at least the space where the "what does this even do"
 [3W AC/DC Module](https://www.amazon.com/dp/B09Z253MQ2)  
 [3D Printing Service](https://craftcloud3d.com/)
 
-## BABY'S FIRST 3D MODEL
+## FRUSTRATION 360
 With the window shopping done, the first hurdle is designing the adapter plate. Turns out my switch cover style is Decora, which I learned counts as a standard. I was hoping I could find a pre-made blank to save me some time as I have very little experience with 3D modeling. And Glen Bayley to the rescue with his [Decora blank insert](https://www.printables.com/model/1198667-decora-blank-insert-fusion-360-file). Now with some basic measurements from the waveshare display diagram I simply needed to cut a hole in the blank.
 
 Back to the part where I have very little experience... I spent a few hours in fusion360 before uninstalling and almost calling it quits. I stumbled about another tool called [TinkerCAD](https://www.tinkercad.com/), which I can only imagine was designed for young children to play with. Evidenced by the fact there is a minecraft mode for building your models. But for me this was good enough to put a hole in a plate. [My struggle lives here](/public/decora-adapter.stl).
@@ -76,6 +76,6 @@ void initDisplay() {
 Now what to do with this new power? A count down of remaining months in your average life (374)? Or maybe you can begin fetching data from your home assistant server, public apis or wherever. Some things that I thought would look cool and maybe partially useful is the weather outside, my total home energy usage, unlocked doors, and intruders; don't try it.
 
 ## CONCLUSION
-I hope this project distracted you long enough to forget the quiet dread. Even if just for a second. Build something.
+I hope this project inspires you to build something and distract you long enough to forget the quiet dread. Even if just for a second. 
 
 ![installed decora screen](/img/decora-screen.jpg){sizes="(max-width: 480px) 320px, 640px"}

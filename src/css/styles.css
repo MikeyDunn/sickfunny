@@ -6,16 +6,11 @@
 
 /* Body and container */
 html {
-  overflow-y: scroll;
   font-size: 16px;
 }
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #fff;
-  color: #111;
   line-height: 1.6;
   font-size: 1.125rem;
   padding: 2rem;
@@ -23,17 +18,15 @@ body {
   margin: 0 auto;
 }
 
-header {
+header, main, footer {
   padding: 0 1rem;
-  border-bottom: 1px solid black;
 }
 
-main {
-  padding: 0 1rem;
+header {
+  border-bottom: 1px solid #000;
 }
 
 footer {
-  padding: 0 1rem;
   font-family: monospace;
   font-size: 0.875rem;
   color: #666;
@@ -45,27 +38,34 @@ footer {
 pre {
   background: #f9f9f9;
   padding: 1rem;
-  border-radius: 6px;
   overflow-x: auto;
-  margin-bottom: 1rem;
-  font-size: 0.95em;
+  margin: 2rem 0;
   font-family: monospace;
 }
 
+ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 /* Typography */
+strong {
+  font-weight: 500;
+}
+
 h1, .title {
   font-size: 3rem;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 2.5rem;
   font-weight: 100;
   line-height: 1.2;
 }
 
-h1 a, .title a {
-  text-decoration: none;
+.title {
+  margin-bottom: 1.5rem;
 }
 
-h1::after {
-  content: '.';
+h1 a, .title a, .merch-item a {
+  text-decoration: none;
 }
 
 h2 {
@@ -87,15 +87,13 @@ picture {
   aspect-ratio: 1 / 1;
   display: block;
   overflow: hidden;
-  background: #f9f9f9;
   border-radius: 0.5rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 img {
   width: 100%;
   height: 100%;
-  filter: grayscale(0.8);
+  filter: grayscale(0.7);
 }
 
 article picture {
@@ -104,12 +102,6 @@ article picture {
   margin: 3rem auto;
 }
 
-/* Utility */
-.hidden {
-  display: none;
-}
-
-
 /* Custom */
 #merch .container {
   display: grid;
@@ -117,28 +109,20 @@ article picture {
   gap: 1rem;
 }
 
-.merch-item a {
-  text-decoration: none;
-}
-
-.merch-item figcaption {
-  font-weight: 100;
-  margin-top: 5px;
-}
-
-.merch-item .image-wrapper {
+.merch-item figure {
   position: relative;
 }
 
-.merch-item .price {
+.merch-item figcaption {
   position: absolute;
-  bottom: 0;
-  left: 2px;
-  right: 0;
-  text-align: left;
+  bottom: 5px;
+  left: 5px;
   color: #fff;
-  font-weight: 400;
-  font-size: 1.5rem;
+  font-family: monospace;
+  line-height: 1;
+  letter-spacing: -2px;
+  font-weight: 900;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
 }
 
 .post-preview .meta {

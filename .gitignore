@@ -11,8 +11,6 @@ _site/
 # Logs
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # OS
 .DS_Store
@@ -26,7 +24,5 @@ img/tmp/
 .env
 .env.*
 
-# lockfiles (choose one)
+# lockfiles
 package-lock.json
-# yarn.lock
-# pnpm-lock.yaml
