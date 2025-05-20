@@ -5,9 +5,9 @@ pagination:
   alias: tag
 permalink: 'tags/{{ tag | slug }}/index.html'
 layout: layout.njk
-description: "sickfunny posts tagged with {{ tag }}"
 eleventyComputed:
   title: "{{ tag }} posts"
+  description: "sickfunny posts tagged with {{ tag }}"
 ---
 
 {% if tag == "all" %}
