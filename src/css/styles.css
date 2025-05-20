@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 /* Body and container */
@@ -19,40 +18,30 @@ body {
   line-height: 1.6;
   font-size: 1.125rem;
   padding: 2rem;
+  max-width: 768px;
+  margin: 0 auto;
 }
 
 header {
-  max-width: 768px;
-  margin: 0 auto;
   padding: 0 1rem;
   border-bottom: 1px solid black;
 }
 
 main {
-  max-width: 768px;
-  margin: 0 auto;
   padding: 0 1rem;
 }
 
 footer {
-  max-width: 768px;
-  margin: 0 auto;
   padding: 0 1rem;
   font-family: monospace;
   font-size: 0.875rem;
   color: #666;
-}
-
-footer::before {
-  content: '';
-  display: block;
-  width: 100%;
   border-top: 1px dashed #ccc;
-  margin-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 section {
-  margin: 0 0 4rem 0;
+  margin: 0 0 3rem 0;
 }
 
 /* Typography */
@@ -74,12 +63,14 @@ h1 a, .title a {
 h2 {
   font-size: 2rem;
   margin-top: 2rem;
-  letter-spacing: 5px;
+  margin-bottom: 2.5rem;
+  letter-spacing: 3px;
 }
 
 h3 {
   font-size: 1.25rem;
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
+  font-weight: 500;
 }
 
 p {
@@ -95,20 +86,14 @@ ul {
   margin-bottom: 1rem;
 }
 
-code {
-  background: #f2f2f2;
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
-  font-size: 0.95em;
-  font-family: monospace;
-}
-
 pre {
   background: #f9f9f9;
   padding: 1rem;
   border-radius: 6px;
   overflow-x: auto;
   margin-bottom: 1rem;
+  font-size: 0.95em;
+  font-family: monospace;
 }
 
 .hidden {
@@ -137,20 +122,16 @@ pre {
 }
 
 .merch-item a {
-  display: block;
   text-decoration: none;
 }
 
 .merch-item figcaption {
-  align-items: baseline;
-  text-align: left;
   font-weight: 100;
   margin-top: 5px;
 }
 
 .merch-item .image-wrapper {
   position: relative;
-  overflow: hidden;
 }
 
 .merch-item .price {
@@ -165,13 +146,7 @@ pre {
 }
 
 .post-preview {
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-}
-
-.post-preview h3 {
-  font-size: 1.25rem;
-  margin-bottom: 0;
+  margin-bottom: 3rem;
 }
 
 .post-preview .meta {
