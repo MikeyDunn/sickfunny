@@ -3,15 +3,15 @@ import crypto from 'crypto'
 import fs from 'fs'
 
 import { minify } from 'html-minifier'
-import rssPlugin from '@11ty/eleventy-plugin-rss'
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
+import MarkdownIt from 'markdown-it'
+import markdownItAttrs from 'markdown-it-attrs'
 
 export default function (eleventyConfig) {
   // Targets
   eleventyConfig.addWatchTarget('src/css/styles.css')
 
   // Plugins
-  eleventyConfig.addPlugin(rssPlugin)
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     extensions: 'html',
     formats: ['avif', 'webp', 'jpeg'],
@@ -22,6 +22,11 @@ export default function (eleventyConfig) {
       decoding: 'async',
     },
   })
+
+  // Markdown helpers
+  const md = MarkdownIt({ html: true })
+  md.use(markdownItAttrs)
+  eleventyConfig.setLibrary('md', md)
 
   // Passthrough
   eleventyConfig.addPassthroughCopy('img')
