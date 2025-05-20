@@ -75,8 +75,9 @@ h1, .title {
   line-height: 1.2;
 }
 
-h1 a, .title a, .merch-item a {
+h1 a, .title a, .merch-item a, h2 a {
   text-decoration: none;
+  color: inherit;
 }
 
 h2 {
@@ -95,7 +96,7 @@ li {
 }
 
 a {
-  color: inherit;
+  color: #bf615a;
 }
 
 /* Custom */
@@ -132,7 +133,7 @@ a {
 }
 
 /* Responsive tweaks */
-@media (max-width: 767px) {
+@media (max-width: 640px) {
   html {
     font-size: 14px;
   }
