@@ -3,17 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>{{ title }} - sickfunny</title>
-    <meta property="og:title" content="{{ title }} - sickfunny">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://sickfunny.co{{ page.url }}">
     <meta name="description" content="{{ description }}">
-    <meta property="og:description" content="{{ description }}">
-    {% if author %}
-      <meta name="author" content="{{ author }}">
-    {% endif %}
-    <link rel="icon" href="/favicon.png" type="image/png">
+    {% if author %}<meta name="author" content="{{ author }}">{% endif %}
     <link rel="canonical" href="{{ site.url }}{{ page.url | url }}">
+
+    {# Open Graph #}
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ title }} - sickfunny">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="https://sickfunny.co{{ page.url }}">
+    <link rel="icon" href="/favicon.png" type="image/png">
     <link rel="stylesheet" href="{{ 'src/css/styles.css' | hashedCss }}" />
   </head>
   <body>

@@ -75,3 +75,5 @@ Now what to do with this new power? A count down of remaining months in your ave
 
 ### CONCLUSION
 I hope this project distracted you long enough to forget the quiet dread. Even if just for a second. Build something.
+
+![installed decora screen](/img/decora-screen.jpg)

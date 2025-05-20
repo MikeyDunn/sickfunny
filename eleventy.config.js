@@ -4,7 +4,7 @@ import fs from 'fs'
 
 import { minify } from 'html-minifier'
 import rssPlugin from '@11ty/eleventy-plugin-rss'
-import eleventyImage from '@11ty/eleventy-img'
+import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 
 export default function (eleventyConfig) {
   // Targets
@@ -12,30 +12,21 @@ export default function (eleventyConfig) {
 
   // Plugins
   eleventyConfig.addPlugin(rssPlugin)
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    extensions: 'html',
+    formats: ['avif', 'webp', 'jpeg'],
+    widths: [320, 640, 1024],
+    defaultAttributes: {
+      loading: 'lazy',
+      sizes: '100vw',
+      decoding: 'async',
+    },
+  })
 
   // Passthrough
   eleventyConfig.addPassthroughCopy('img')
   eleventyConfig.addPassthroughCopy('src/favicon.png')
   eleventyConfig.addPassthroughCopy('src/public/**')
-
-  // Shortcodes
-  eleventyConfig.addNunjucksAsyncShortcode('image', async (src, alt, options = {}) => {
-    let metadata = await eleventyImage(src, {
-      widths: [320, 640, 1024],
-      formats: ['avif', 'webp', 'jpeg'],
-      outputDir: './_site/img/',
-      urlPath: '/img/',
-    })
-
-    let imageAttributes = {
-      alt,
-      loading: 'lazy',
-      decoding: 'async',
-      ...options,
-    }
-
-    return eleventyImage.generateHTML(metadata, imageAttributes)
-  })
 
   // Collections
   eleventyConfig.addCollection('post', function (collectionApi) {
