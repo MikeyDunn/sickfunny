@@ -16,9 +16,9 @@ Filling the empty void, or at least the space where the "what does this even do"
 
 ### PARTS LIST
 [E-Ink ESP32](https://www.amazon.com/dp/B07RM1BBVF)  
-[Waveshare 2.13inch E-ink Display](https://www.amazon.com/dp/B071VNB96D) 
+[Waveshare 2.13inch E-ink Display](https://www.amazon.com/dp/B071VNB96D)  
 [USB Type C Pigtail](https://www.amazon.com/dp/B0DCGN8ZG3)  
-[3W AC/DC Module](https://www.amazon.com/dp/B09Z253MQ2)   
+[3W AC/DC Module](https://www.amazon.com/dp/B09Z253MQ2)  
 [3D Printing Service](https://craftcloud3d.com/)
 
 ### BABY'S FIRST 3D MODEL
@@ -51,7 +51,7 @@ void initDisplay() {
   Serial.println("Starting display");
   display.init(115200);
   
-  // SPI pin assignments.
+  // SPI pin assignments
   SPI.end();
   SPI.begin(13, 12, 14, 15);
   
@@ -62,7 +62,7 @@ void initDisplay() {
   display.setFullWindow();
   display.firstPage();
   
-  // Clear the display.
+  // Clear the display
   do {
     display.fillScreen(GxEPD_WHITE);
   } while (display.nextPage());

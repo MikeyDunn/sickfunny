@@ -38,7 +38,8 @@ footer {
   font-size: 0.875rem;
   color: #666;
   border-top: 1px dashed #ccc;
-  padding-top: 1rem;
+  padding-top: 2rem;
+  margin-top: 2rem
 }
 
 /* Typography */
