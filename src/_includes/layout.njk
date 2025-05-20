@@ -3,23 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ title }}</title>
-    <meta name="description" content="{{ title }}">
-    <meta property="og:title" content="{{ title }}">
+    <title>{{ title }} - sickfunny</title>
+    <meta property="og:title" content="{{ title }} - sickfunny">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://sickfunny.co{{ page.url }}">
     <meta name="description" content="{{ description }}">
     <meta property="og:description" content="{{ description }}">
+    {% if author %}
+      <meta name="author" content="{{ author }}">
+    {% endif %}
     <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | url }}">
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
 
     <header>
-      <h1><a href="/"><strong>sick</strong>funny x&#41;</a></h1>
+      <div class="title"><a href="/" rel="home" aria-label="sickfunny homepage"><strong>sick</strong>funny x&#41;</a></div>
     </header>
 
-    <main>
+    <main role="main">
       {{ content | safe }}
     </main>
     

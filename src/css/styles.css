@@ -56,18 +56,18 @@ section {
 }
 
 /* Typography */
-h1, h2, h3 {
+h1, h2, h3, .title {
   line-height: 1.2;
   font-weight: 100;
   margin-bottom: 0.5em;
 }
 
-h1 {
+h1, .title {
   font-size: 3rem;
   margin-top: 1.5rem;
 }
 
-h1 a {
+h1 a, .title a {
   text-decoration: none;
 }
 
@@ -111,6 +111,10 @@ pre {
   margin-bottom: 1rem;
 }
 
+.hidden {
+  display: none;
+}
+
 #merch .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -140,7 +144,6 @@ pre {
   transition: transform 0.3s ease;
   filter: grayscale(0.8);
 }
-
 
 .merch-item a {
   display: block;
@@ -174,7 +177,7 @@ pre {
     padding: 1rem;
   }
 
-  h1 {
+  h1, .title {
     font-size: 2.5rem;
   }
 
