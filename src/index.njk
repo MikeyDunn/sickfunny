@@ -4,10 +4,10 @@ title: home
 description: dark humor, cursed experiments, and weird tools for anyone still bothering to click
 ---
 
-<section id="merch">
-  <h1 class="hidden">home</h1>
+<h1 class="hidden">home</h1>
 
-  <h2>merch.</h2>
+<section id="merch">
+  <h1>merch</h1>
   <div class="container">
     <div class="merch-item">
       <a href="https://shop.sickfunny.co/listing/buy-litty-kitty">
@@ -67,11 +67,11 @@ description: dark humor, cursed experiments, and weird tools for anyone still bo
 </section>
 
 <section id="posts">
-  <h2>latest posts.</h2>
+  <h1>latest posts</h1>
   <div class="container">
     {% for post in collections.post | reverse %}
       <article class="post-preview">
-        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
         <p class="meta">
           {{ post.date | date }}
           {% if post.data.readTime %} • {{ post.data.readTime }}{% endif %}

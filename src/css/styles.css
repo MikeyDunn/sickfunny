@@ -42,42 +42,6 @@ footer {
   margin-top: 2rem
 }
 
-/* Typography */
-h1, h2, h3, .title {
-  line-height: 1.2;
-  font-weight: 100;
-  margin-bottom: 0.5em;
-}
-
-h1, .title {
-  font-size: 3rem;
-  margin-top: 1.5rem;
-}
-
-h1 a, .title a {
-  text-decoration: none;
-}
-
-h2 {
-  font-size: 2rem;
-  margin: 2rem 0;
-  letter-spacing: 3px;
-}
-
-h3 {
-  font-size: 1.25rem;
-  margin-top: 2.5rem;
-  font-weight: 500;
-}
-
-p {
-  margin-bottom: 1rem;
-}
-
-a {
-  color: inherit;
-}
-
 pre {
   background: #f9f9f9;
   padding: 1rem;
@@ -86,6 +50,37 @@ pre {
   margin-bottom: 1rem;
   font-size: 0.95em;
   font-family: monospace;
+}
+
+/* Typography */
+h1, .title {
+  font-size: 3rem;
+  margin: 1.5rem 0;
+  font-weight: 100;
+  line-height: 1.2;
+}
+
+h1 a, .title a {
+  text-decoration: none;
+}
+
+h1::after {
+  content: '.';
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 2.5rem 0 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: inherit;
 }
 
 picture {
@@ -109,10 +104,13 @@ article picture {
   margin: 3rem auto;
 }
 
+/* Utility */
 .hidden {
   display: none;
 }
 
+
+/* Custom */
 #merch .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
