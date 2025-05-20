@@ -125,27 +125,43 @@ pre {
   aspect-ratio: 1 / 1;
   display: block;
   overflow: hidden;
-  width: 100%;
-  position: relative;
   background: #f9f9f9;
   border-radius: 0.5rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 #merch .container picture img {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
   filter: grayscale(0.8);
 }
 
 .merch-item a {
   display: block;
-  text-align: center;
+  text-decoration: none;
+}
+
+.merch-item figcaption {
+  align-items: baseline;
+  text-align: left;
+  font-weight: 100;
+  margin-top: 5px;
+}
+
+.merch-item .image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.merch-item .price {
+  position: absolute;
+  bottom: 0;
+  left: 2px;
+  right: 0;
+  text-align: left;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 .post-preview {

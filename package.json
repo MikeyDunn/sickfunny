@@ -6,7 +6,8 @@
     "dev": "eleventy --serve",
     "eleventy": "eleventy",
     "critical": "node scripts/generateCritical.js",
-    "build": "npm run eleventy && npm run critical"
+    "clean": "rimraf _site",
+    "build": "npm run clean && npm run eleventy && npm run critical"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
@@ -19,6 +20,7 @@
     "eslint": "^9.25.1",
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-prettier": "^5.2.6",
-    "prettier": "^3.5.3"
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1"
   }
 }

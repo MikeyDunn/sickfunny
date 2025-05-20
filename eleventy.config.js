@@ -7,6 +7,9 @@ import rssPlugin from '@11ty/eleventy-plugin-rss'
 import eleventyImage from '@11ty/eleventy-img'
 
 export default function (eleventyConfig) {
+  // Targets
+  eleventyConfig.addWatchTarget('src/css/styles.css')
+
   // Plugins
   eleventyConfig.addPlugin(rssPlugin)
 
@@ -51,14 +54,22 @@ export default function (eleventyConfig) {
   })
 
   // Hash CSS files
+  const isProduction = process.env.NODE_ENV === 'production'
   const outputMap = {}
+
   eleventyConfig.on('eleventy.before', () => {
     const inputPath = 'src/css/styles.css'
     const outputDir = '_site/css/'
 
     const css = fs.readFileSync(inputPath)
-    const hash = crypto.createHash('md5').update(css).digest('hex').slice(0, 8)
-    const outputFilename = `styles.${hash}.css`
+    let outputFilename
+
+    if (isProduction) {
+      const hash = crypto.createHash('md5').update(css).digest('hex').slice(0, 8)
+      outputFilename = `styles.${hash}.css`
+    } else {
+      outputFilename = 'styles.css'
+    }
 
     fs.mkdirSync(outputDir, { recursive: true })
     fs.writeFileSync(path.join(outputDir, outputFilename), css)
