@@ -13,6 +13,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.6;
   font-size: 1.125rem;
+  font-weight: 300;
   padding: 2rem;
   max-width: 768px;
   margin: 0 auto;
@@ -39,7 +40,7 @@ pre {
   background: #f9f9f9;
   padding: 1rem;
   overflow-x: auto;
-  margin: 2rem 0;
+  font-size: 0.875rem;
   font-family: monospace;
 }
 
@@ -87,7 +88,7 @@ h2 {
   line-height: 1.2;
 }
 
-p, ul {
+p, ul, pre {
   margin-bottom: 2rem;
 }
 
