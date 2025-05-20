@@ -16,6 +16,7 @@ export default function (eleventyConfig) {
   // Passthrough
   eleventyConfig.addPassthroughCopy('img')
   eleventyConfig.addPassthroughCopy('src/favicon.png')
+  eleventyConfig.addPassthroughCopy('src/public/**')
 
   // Shortcodes
   eleventyConfig.addNunjucksAsyncShortcode('image', async (src, alt, options = {}) => {
