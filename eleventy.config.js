@@ -6,6 +6,7 @@ import { minify } from 'html-minifier'
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import MarkdownIt from 'markdown-it'
 import markdownItAttrs from 'markdown-it-attrs'
+import mdiImageFigures from 'markdown-it-image-figures'
 
 export default function (eleventyConfig) {
   // Targets
@@ -26,6 +27,7 @@ export default function (eleventyConfig) {
   // Markdown helpers
   const md = MarkdownIt({ html: true })
   md.use(markdownItAttrs)
+  md.use(mdiImageFigures, { figcaption: true })
   eleventyConfig.setLibrary('md', md)
 
   // Passthrough
