@@ -19,7 +19,7 @@ body {
   margin: 0 auto;
 }
 
-header, nav, main, footer {
+header, main, footer {
   padding: 0 1rem;
 }
 
@@ -69,17 +69,8 @@ article, section {
   margin-bottom: 3rem;
 }
 
-nav {
-  margin: 1rem 0 1.5rem;
-}
-
 ul {
   list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin-right: 1rem;
 }
 
 /* Typography */
@@ -110,20 +101,19 @@ p, ul, pre {
   margin-bottom: 2rem;
 }
 
+a {
+  color: #BA5850;
+}
+
+/* Custom */
 article ul {
   list-style: disc;
 }
 
 article li {
   margin: 0 0 0 1.5rem;
-  display: list-item;
 }
 
-a {
-  color: #BA5850;
-}
-
-/* Custom */
 #merch .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -153,10 +143,6 @@ a {
   font-size: 0.875rem;
   color: #666;
   margin: 0.5rem 0;
-}
-
-.post-preview p + .meta {
-  margin-top: -1.5rem;
 }
 
 /* Responsive tweaks */
