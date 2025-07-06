@@ -145,6 +145,11 @@ article li {
   margin: 0.5rem 0;
 }
 
+span[title] {
+  border-bottom: 1px dashed #999;
+  cursor: help;
+}
+
 /* Responsive tweaks */
 @media (max-width: 640px) {
   html {

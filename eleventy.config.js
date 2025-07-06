@@ -7,6 +7,7 @@ import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import MarkdownIt from 'markdown-it'
 import markdownItAttrs from 'markdown-it-attrs'
 import mdiImageFigures from 'markdown-it-image-figures'
+import mdiBracketedSpans from 'markdown-it-bracketed-spans'
 
 export default function (eleventyConfig) {
   // Targets
@@ -28,6 +29,7 @@ export default function (eleventyConfig) {
   const md = MarkdownIt({ html: true })
   md.use(markdownItAttrs)
   md.use(mdiImageFigures, { figcaption: true })
+  md.use(mdiBracketedSpans)
   eleventyConfig.setLibrary('md', md)
 
   // Passthrough
