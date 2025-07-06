@@ -39,7 +39,7 @@ The everything else lens. From 70mm to borderline intrusive, this lens covers th
 
 This beast of a lens will turn your backyard into an african safari with the opportunities you'll have. You also have the option to slap a 2x or 4x magnifier on the back for more reach. This should handle most of your long range needs until someone in your family dies and you can blow the inheritance on Sony's 400mm and 600mm primes.
 
-The only major down side to the GMII is the voice in the back of your head suggesting you submit your life to the calling of the birders. How am I supposed to spend hours waiting for something to show up that flaps its wings at 100 miles an hour. No no, I'll focus on sports of course. But a shot of that beautiful eagle would look great.
+The only major down side to the GMII is the voice in the back of your head suggesting you submit your life to the calling of the birders. How am I supposed to spend hours waiting for something to show up that flaps its wings at 100 miles per hour. No no, I'll focus on sports of course. But a shot of that beautiful eagle would look great.
 
 ![Woman singing on stage with microphone at concert](/img/holy-trinity-200mm.jpg "Sony A7 • 200mm ƒ/2.8 1/500s ISO 3200"){sizes="(max-width: 480px) 320px, 640px"}
 
