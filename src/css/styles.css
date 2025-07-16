@@ -14,7 +14,7 @@ body {
   line-height: 1.6;
   font-size: 1.125rem;
   font-weight: 300;
-  padding: 2rem;
+  padding: 1rem 2rem 2rem;
   max-width: 768px;
   margin: 0 auto;
 }
@@ -65,8 +65,12 @@ img {
   border-radius: 0.5rem;
 }
 
-article, section {
-  margin-bottom: 3rem;
+section {
+  margin-bottom: 3.5rem;
+}
+
+article {
+  margin-bottom: 2.5rem;
 }
 
 ul {
@@ -78,9 +82,16 @@ strong {
   font-weight: 500;
 }
 
-h1, .title {
+h1 {
   font-size: 3rem;
   margin: 1rem 0 1.5rem;
+  font-weight: 100;
+  line-height: 1.2;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 0 0 1rem;
   font-weight: 100;
   line-height: 1.2;
 }
@@ -92,7 +103,7 @@ h1 a, .title a, .merch-item a, h2 a {
 
 h2 {
   font-size: 1.25rem;
-  margin: 0.5rem 0;
+  margin: 0.25rem 0;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -142,7 +153,7 @@ article li {
 .post-preview .meta {
   font-size: 0.875rem;
   color: #666;
-  margin: 0.5rem 0;
+  margin: 0.25rem 0;
 }
 
 span[title] {
@@ -157,7 +168,7 @@ span[title] {
   }
 
   body {
-    padding: 0 1rem 1.5rem;
+    padding: 0.75rem 1rem 1.5rem;
   }
 
   #merch .container {

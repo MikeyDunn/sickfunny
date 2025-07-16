@@ -63,3 +63,13 @@ description: dark humor, cursed experiments, and weird tools for anyone still bo
     {% endfor %}
   </ul>
 </section>
+
+<section id="tags">
+  {% for tagObj in collections.tagList %}
+    {% if tagObj.tag != "all" %}
+      <a href="/tags/{{ tagObj.tag | slug }}/">
+        {{ tagObj.tag }} 
+        ({{ tagObj.count }})</a>{% if not loop.last %}, {% endif %}
+    {% endif %}
+  {% endfor %}
+</section>

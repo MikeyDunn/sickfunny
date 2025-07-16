@@ -2,27 +2,27 @@
 pagination:
   data: collections.tagList
   size: 1
-  alias: tag
-permalink: 'tags/{{ tag | slug }}/index.html'
+  alias: tagObj
+permalink: 'tags/{{ tagObj.tag | slug }}/index.html'
 layout: layout.njk
 eleventyComputed:
-  title: "{{ tag }} posts"
-  description: "sickfunny posts tagged with {{ tag }}"
+  title: "{{ tagObj.tag }} posts"
+  description: "sickfunny posts tagged with {{ tagObj.tag }}"
 ---
 
-{% if tag == "all" %}
+{% if tagObj.tag == "all" %}
   {% set postsForTag = collections.post %}
 {% else %}
   {% set postsForTag = [] %}
   {% for post in collections.post %}
-    {% if post.data.tags and tag in post.data.tags %}
+    {% if post.data.tags and tagObj.tag in post.data.tags %}
       {% set _ = postsForTag.push(post) %}
     {% endif %}
   {% endfor %}
 {% endif %}
 
 <section id="posts">
-  {% if tag != "all" %}<h1>Posts tagged &ldquo;{{ tag }}&rdquo;</h1>{% endif %}
+  {% if tagObj.tag != "all" %}<h1>Posts tagged &ldquo;{{ tagObj.tag }}&rdquo;</h1>{% endif %}
   {% for post in postsForTag %}
       {% include "post-preview.njk" %}
   {% endfor %}

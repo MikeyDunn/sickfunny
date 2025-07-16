@@ -42,14 +42,22 @@ export default function (eleventyConfig) {
     return collectionApi.getFilteredByGlob('./src/posts/**/*.md')
   })
   eleventyConfig.addCollection('tagList', function (collectionApi) {
-    let tagSet = new Set()
+    let tagMap = new Map()
     collectionApi.getAll().forEach(item => {
       if (item.data.tags) {
         let tags = Array.isArray(item.data.tags) ? item.data.tags : [item.data.tags]
-        tags.forEach(tag => tagSet.add(tag))
+        tags.forEach(tag => {
+          if (!tagMap.has(tag)) {
+            tagMap.set(tag, 1)
+          } else {
+            tagMap.set(tag, tagMap.get(tag) + 1)
+          }
+        })
       }
     })
-    return [...tagSet, 'all']
+    return Array.from(tagMap.entries())
+      .map(([tag, count]) => ({ tag, count }))
+      .sort((a, b) => b.count - a.count)
   })
 
   // Minify HTML
