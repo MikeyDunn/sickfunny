@@ -3,6 +3,7 @@ pagination:
   data: collections.tagList
   size: 1
   alias: tagObj
+  addAllPagesToCollections: true
 permalink: 'tags/{{ tagObj.tag | slug }}/index.html'
 layout: layout.njk
 eleventyComputed:
