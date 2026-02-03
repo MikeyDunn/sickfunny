@@ -12,6 +12,8 @@ description: >
   Filling the empty void, or at least the space where my unused light switch used to be in the living room. I decided to yank it out and replace it with something more honest: an e-ink display embedded inside the switch box. Another screen in my life sounded like a good idea. Build first; provide purpose later.
 ---
 
+![installed decora screen](/img/decora-screen.jpg "iPhone 12 • 26mm ƒ/1.6 1/60s ISO 125"){sizes="(max-width: 480px) 320px, 640px"}
+
 Filling the empty void, or at least the space where my unused light switch used to be in the living room. I decided to yank it out and replace it with something more honest: an e-ink display embedded inside the switch box. Another screen in my life sounded like a good idea. Build first; provide purpose later.
 
 \* below are affiliate links to support this blog.
@@ -80,5 +82,3 @@ Now what to do with this new power? A count down of remaining months in your ave
 
 ## CONCLUSION
 I hope this project inspires you to build something and distract you long enough to forget the quiet dread. Even if just for a second. 
-
-![installed decora screen](/img/decora-screen.jpg "iPhone 12 • 26mm ƒ/1.6 1/60s ISO 125"){sizes="(max-width: 480px) 320px, 640px"}
