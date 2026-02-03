@@ -14,7 +14,7 @@ description: >
 
 Toddler-proofing your home is really just acknowledging that you now share living space with a small, relentless chaos agent whose only mission is to find and exploit every vulnerability in your environment. These are the products that help you maintain the illusion of control.
 
-\* below are affiliate links to support this blog
+\* below are affiliate links that support this blog
 
 ## THE PERIMETER
 [Retractable Safety Gate](https://amzn.to/3NQILD2)  

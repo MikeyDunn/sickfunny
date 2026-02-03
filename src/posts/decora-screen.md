@@ -16,7 +16,7 @@ description: >
 
 Filling the empty void, or at least the space where my unused light switch used to be in the living room. I decided to yank it out and replace it with something more honest: an e-ink display embedded inside the switch box. Another screen in my life sounded like a good idea. Build first; provide purpose later.
 
-\* below are affiliate links to support this blog.
+\* below are affiliate links that support this blog.
 
 ## PARTS LIST
 [E-Ink ESP32](https://amzn.to/4byWbNU)  
