@@ -15,11 +15,13 @@ description: >
 Filling the empty void, or at least the space where my unused light switch used to be in the living room. I decided to yank it out and replace it with something more honest: an e-ink display embedded inside the switch box. Another screen in my life sounded like a good idea. Build first; provide purpose later.
 
 ## PARTS LIST
-[E-Ink ESP32](https://www.amazon.com/dp/B07RM1BBVF)  
-[Waveshare 2.13inch E-ink Display](https://www.amazon.com/dp/B071VNB96D)  
-[USB Type C Pigtail](https://www.amazon.com/dp/B0DCGN8ZG3)  
-[3W AC/DC Module](https://www.amazon.com/dp/B09Z253MQ2)  
-[3D Printing Service](https://craftcloud3d.com/)
+\* below are affiliate links to support this blog.  
+[E-Ink ESP32](https://amzn.to/4byWbNU)  
+[Waveshare 2.13inch E-ink Display](https://amzn.to/4q7OfXf)  
+[USB Type C Pigtail](https://amzn.to/4qd32jC)  
+[3W AC/DC Module](https://amzn.to/46dvlXW)  
+[3D Printing Service](https://craftcloud3d.com/)  
+
 
 ## FRUSTRATION 360
 With the window shopping done, the first hurdle is designing the adapter plate. Turns out my switch cover style is Decora, which I learned counts as a standard. I was hoping I could find a pre-made blank to save me some time as I have very little experience with 3D modeling. And Glen Bayley to the rescue with his [Decora blank insert](https://www.printables.com/model/1198667-decora-blank-insert-fusion-360-file). Now with some basic measurements from the waveshare display diagram I simply needed to cut a hole in the blank.
