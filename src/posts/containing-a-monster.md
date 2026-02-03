@@ -5,6 +5,7 @@ eleventyComputed:
 date: 2026-02-02
 tags:
   - parenthood
+  - home
 readTime: "4 minutes"
 author: sickfunny
 description: >
@@ -21,15 +22,15 @@ The first line of defense. This thing retracts like a window shade when you're n
 
 ## THE CABINETS
 [Safety Strap Locks](https://amzn.to/4ky4axb)  
-Adhesive straps with 3M tape that actually holds. These work on drawers, cabinets, the fridge, even the toilet. Adjustable, flexible, stick them on and you're done. They'll pull on the handles. Test them. Get frustrated. Eventually move on to something else. The point is to keep the cleaning supplies, the sharp objects, the random medications you shoved in there months ago—all of it stays where it is. When you need to move or rearrange, they peel off without leaving marks.
+Stick-on straps that operate smoother than you'd expect. They go on drawers, cabinets, wherever you keep things you'd rather not explain to a poison control operator. The 3M adhesive actually works, which is rare for this kind of thing. Toddlers don't have the grip strength or the patience to defeat them, at least not for a while. By the time they figure it out, they're old enough that you've already moved on to worrying elsewhere. When you don't need them anymore, they come off without taking the paint with them.
 
 ## THE FURNITURE
 [Anti-Tip Furniture Anchors](https://amzn.to/4kc8JwV)  
-Toddlers climb. It's not a phase. It's their primary method of exploration and your primary source of anxiety. These are heavy-duty stainless steel straps with braided cable that anchor dressers, bookshelves, anything tall enough to become a tragedy if it tips. Not the flimsy plastic garbage. Actual metal. Rated for 400 pounds, which is more than enough to handle your kid's enthusiasm for vertical surfaces. The screw-closure design lets you detach them when you need to move furniture or finally clean behind that dresser you've been avoiding. Ten minutes of installation now saves you from a nightmare scenario later. Install them. Seriously.
+Toddlers climb. It's not a phase. It's their primary method of exploration and your primary source of anxiety. These are heavy-duty stainless steel straps with braided cable that anchor dressers, bookshelves, anything tall enough to become a tragedy if it tips. Not the flimsy plastic garbage. Actual metal. Rated for 400 pounds, which is more than enough to handle your kid's enthusiasm for vertical surfaces. The screw-closure design lets you detach them when you need to move furniture or finally clean behind that dresser you've been avoiding. Ten minutes of installation now saves you from a nightmare scenario later.
 
 ## THE OUTLETS
 [Self-Closing Outlet Covers](https://amzn.to/4qhxBVg)  
-Forget those little plastic caps. You'll lose them. You'll forget to put them back in. Your kid will find one under the couch and try to eat it. These replace the entire wall plate with a self-closing cover. Plug something in, the cover slides open. Unplug it, the cover slides shut. Automatic. They're slightly oversized, which means they cover up the dents and paint chips around your outlets that you've been meaning to fix for three years. Install takes two minutes per outlet with a screwdriver. Just make sure you have standard center-screw outlets. One screw in the middle? You're good.
+Forget those little plastic caps. You'll lose them. You'll forget to put them back in. Your kid will find one under the couch and try to eat it. These replace the entire wall plate with a self-closing cover. Plug something in, the cover slides open. Unplug it, the cover slides shut. Automatic. Takes a screwdriver and about two minutes per outlet to install. They only work with standard center-screw outlets, so check before you order. If your outlet has one screw in the middle, you're fine. Two screws on the top and bottom means you need the other version.
 
 ## THE DOORS
 [Door Knob Covers](https://amzn.to/4qcp4mk)  

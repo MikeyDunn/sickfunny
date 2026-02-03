@@ -5,7 +5,7 @@ eleventyComputed:
 date: 2025-05-09
 tags:
   - hardware
-  - smart home
+  - home
 readTime: "4 minutes"
 author: sickfunny
 description: >
