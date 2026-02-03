@@ -17,7 +17,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     extensions: 'html',
     formats: ['avif', 'webp', 'jpeg'],
-    widths: [320, 640, 1024],
+    widths: [150, 300, 320, 640, 1024],
     defaultAttributes: {
       loading: 'lazy',
       sizes: '100vw',
@@ -119,5 +119,8 @@ export default function (eleventyConfig) {
       output: '_site',
     },
     templateFormats: ['md', 'njk', 'html'],
+    server: {
+      host: '0.0.0.0',
+    },
   }
 }

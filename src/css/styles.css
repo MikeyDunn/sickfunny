@@ -19,7 +19,9 @@ body {
   margin: 0 auto;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   padding: 0 1rem;
 }
 
@@ -96,7 +98,10 @@ h1 {
   line-height: 1.2;
 }
 
-h1 a, .title a, .merch-item a, h2 a {
+h1 a,
+.title a,
+.merch-item a,
+h2 a {
   text-decoration: none;
   color: inherit;
 }
@@ -108,7 +113,9 @@ h2 {
   line-height: 1.2;
 }
 
-p, ul, pre {
+p,
+ul,
+pre {
   margin-bottom: 2rem;
 }
 
@@ -159,6 +166,24 @@ article li {
 span[title] {
   border-bottom: 1px dashed #999;
   cursor: help;
+}
+
+img.product {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 0.25rem 1.5rem 1rem 0;
+}
+
+figure:has(img.product) {
+  float: left;
+  margin: 0 1.5rem 0 0;
+  max-width: 150px;
+}
+
+.product-link {
+  margin-bottom: -1rem;
+  display: block;
 }
 
 /* Responsive tweaks */
