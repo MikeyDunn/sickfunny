@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://gc.zgo.at" crossorigin />
+    <link rel="dns-prefetch" href="https://gc.zgo.at" />
+
     <title>{{ title }} - sickfunny</title>
     <meta name="description" content="{{ description }}">
     {% if author %}<meta name="author" content="{{ author }}">{% endif %}
-    <link rel="canonical" href="{{ site.url }}{{ page.url | url }}">
+    <link rel="canonical" href="https://sickfunny.co{{ page.url }}">
 
     {# Open Graph #}
     <meta property="og:type" content="article">
@@ -15,7 +18,6 @@
     <meta property="og:description" content="{{ description }}">
     <meta property="og:url" content="https://sickfunny.co{{ page.url }}">
     <link rel="icon" href="/favicon.png" type="image/png">
-    <link rel="shortcut icon" href="/favicon.png">
     <link rel="stylesheet" href="{{ 'src/css/styles.css' | hashedCss }}" />
   </head>
   <body>
@@ -24,7 +26,7 @@
       <div class="title"><a href="/" rel="home" aria-label="sickfunny homepage"><strong>sick</strong>funny x&#41;</a></div>
     </header>
 
-    <main role="main">
+    <main>
       {{ content | safe }}
     </main>
     
@@ -34,13 +36,11 @@
     </footer>
 
     <script>
-      window.addEventListener('load', () => {
-        const [navigation] = performance.getEntriesByType('navigation');
-        const loadTime = navigation ? Math.round(navigation.domContentLoadedEventEnd) : 0;
-        document.querySelector('#load-time').textContent = `${loadTime}ms`;
-      });
+      onload = () => {
+        const [n] = performance.getEntriesByType('navigation');
+        document.getElementById('load-time').textContent = `${Math.round(n?.domContentLoadedEventEnd)}ms`;
+      };
     </script>
-
     <script data-goatcounter="https://sickfunny.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   </body>
 </html>

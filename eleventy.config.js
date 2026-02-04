@@ -16,7 +16,7 @@ export default function (eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     extensions: 'html',
-    formats: ['avif', 'webp', 'jpeg'],
+    formats: ['avif', 'webp'],
     widths: [150, 300, 320, 640, 1024],
     defaultAttributes: {
       loading: 'lazy',
@@ -33,7 +33,6 @@ export default function (eleventyConfig) {
   eleventyConfig.setLibrary('md', md)
 
   // Passthrough
-  eleventyConfig.addPassthroughCopy('img')
   eleventyConfig.addPassthroughCopy('src/favicon.png')
   eleventyConfig.addPassthroughCopy('src/public/**')
 

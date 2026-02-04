@@ -4,24 +4,21 @@
   "type": "module",
   "scripts": {
     "dev": "eleventy --serve",
-    "eleventy": "eleventy",
-    "critical": "node scripts/generateCritical.js",
-    "clean": "rimraf _site",
-    "build": "npm run clean && cross-env NODE_ENV=production npm run eleventy && npm run critical"
+    "build": "rm -rf _site && NODE_ENV=production eleventy && node scripts/generateCritical.js"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^6.0.2",
-    "critical": "^7.2.1",
-    "cross-env": "^7.0.3",
-    "eslint": "^9.25.1",
-    "eslint-config-prettier": "^10.1.2",
-    "eslint-plugin-prettier": "^5.2.6",
+    "critters": "^0.0.23",
     "html-minifier": "^4.0.0",
     "markdown-it-attrs": "^4.3.1",
     "markdown-it-bracketed-spans": "^1.0.1",
-    "markdown-it-image-figures": "^2.1.1",
-    "prettier": "^3.5.3",
-    "rimraf": "^6.0.1"
+    "markdown-it-image-figures": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "prettier": "^3.5.3"
   }
 }
