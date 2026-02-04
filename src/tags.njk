@@ -24,7 +24,7 @@ eleventyComputed:
 
 <section id="posts">
   {% if tagObj.tag != "all" %}<h1>Posts tagged &ldquo;{{ tagObj.tag }}&rdquo;</h1>{% endif %}
-  {% for post in postsForTag %}
+  {% for post in postsForTag | reverse %}
       {% include "post-preview.njk" %}
   {% endfor %}
 </section>
