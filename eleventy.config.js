@@ -6,6 +6,9 @@ import markdownItAttrs from 'markdown-it-attrs'
 import mdiImageFigures from 'markdown-it-image-figures'
 
 export default function (eleventyConfig) {
+  // Watch CSS
+  eleventyConfig.addWatchTarget('src/css/')
+
   // Plugins
   eleventyConfig.addPlugin(rssPlugin)
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
