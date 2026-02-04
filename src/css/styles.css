@@ -93,6 +93,7 @@ h2 a,
 .merch-item a {
   text-decoration: none;
   color: inherit;
+  white-space: unset;
 }
 
 h2 {
@@ -110,6 +111,7 @@ pre {
 
 a {
   color: #BA5850;
+  white-space: nowrap;
 }
 
 /* Custom */

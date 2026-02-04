@@ -6,9 +6,6 @@ import markdownItAttrs from 'markdown-it-attrs'
 import mdiImageFigures from 'markdown-it-image-figures'
 
 export default function (eleventyConfig) {
-  // Targets
-  eleventyConfig.addWatchTarget('src/css/styles.css')
-
   // Plugins
   eleventyConfig.addPlugin(rssPlugin)
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
@@ -30,6 +27,7 @@ export default function (eleventyConfig) {
 
   // Passthrough
   eleventyConfig.addPassthroughCopy('src/favicon.png')
+  eleventyConfig.addPassthroughCopy('src/manifest.json')
   eleventyConfig.addPassthroughCopy('src/public/**')
 
   // Collections
