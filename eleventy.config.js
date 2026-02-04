@@ -1,13 +1,8 @@
-import path from 'path'
-import crypto from 'crypto'
-import fs from 'fs'
-
 import { minify } from 'html-minifier'
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import MarkdownIt from 'markdown-it'
 import markdownItAttrs from 'markdown-it-attrs'
 import mdiImageFigures from 'markdown-it-image-figures'
-import mdiBracketedSpans from 'markdown-it-bracketed-spans'
 
 export default function (eleventyConfig) {
   // Targets
@@ -29,7 +24,6 @@ export default function (eleventyConfig) {
   const md = MarkdownIt({ html: true })
   md.use(markdownItAttrs)
   md.use(mdiImageFigures, { figcaption: true })
-  md.use(mdiBracketedSpans)
   eleventyConfig.setLibrary('md', md)
 
   // Passthrough
@@ -66,49 +60,23 @@ export default function (eleventyConfig) {
         useShortDoctype: true,
         removeComments: true,
         collapseWhitespace: true,
+        minifyCSS: true,
       })
     }
     return content
   })
 
-  // Hash CSS files
-  const isProduction = process.env.NODE_ENV === 'production'
-  const outputMap = {}
-
-  eleventyConfig.on('eleventy.before', () => {
-    const inputPath = 'src/css/styles.css'
-    const outputDir = '_site/css/'
-
-    const css = fs.readFileSync(inputPath)
-    let outputFilename
-
-    if (isProduction) {
-      const hash = crypto.createHash('md5').update(css).digest('hex').slice(0, 8)
-      outputFilename = `styles.${hash}.css`
-    } else {
-      outputFilename = 'styles.css'
-    }
-
-    fs.mkdirSync(outputDir, { recursive: true })
-    fs.writeFileSync(path.join(outputDir, outputFilename), css)
-
-    outputMap[inputPath] = `/css/${outputFilename}`
-  })
-
   // Filters
-  eleventyConfig.addFilter('date', function (value, format = 'en-US') {
-    return new Date(value).toLocaleDateString(format, {
+  eleventyConfig.addFilter('date', function (value) {
+    return new Date(value).toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'long',
       day: 'numeric',
     })
   })
 
-  eleventyConfig.addFilter('hashedCss', function (filepath) {
-    if (!outputMap[filepath]) {
-      throw new Error(`hashedCss: ${filepath} not found`)
-    }
-    return outputMap[filepath]
+  eleventyConfig.addFilter('isoDate', function (value) {
+    return new Date(value).toISOString().split('T')[0]
   })
 
   return {

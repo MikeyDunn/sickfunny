@@ -4,17 +4,16 @@ title: {{ title }}
 ---
 
 <article>
-  <h1>{{ title }}</h1>
-  <p>
-    <i>
-      [{{ page.date | date }}]
-      <br /> 
-      tags: 
-      {% for tag in tags %}
-        <a href="/tags/{{ tag | slug }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
-      {% endfor %}
-    </i>
-  </p>
+  <header>
+    <h1>{{ title }}</h1>
+    <p><i>
+      [<time datetime="{{ page.date | isoDate }}">{{ page.date | date }}</time>]
+      <br>
+      tags: {% for tag in tags %}<a href="/tags/{{ tag | slug }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
+    </i></p>
+  </header>
   {{ content | safe }}
 </article>
-<a href="/">back to safety</a>
+<nav>
+  <a href="/">back to safety</a>
+</nav>

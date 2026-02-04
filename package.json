@@ -4,15 +4,13 @@
   "type": "module",
   "scripts": {
     "dev": "eleventy --serve",
-    "build": "rm -rf _site && NODE_ENV=production eleventy && node scripts/generateCritical.js"
+    "build": "rm -rf _site && NODE_ENV=production eleventy"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^6.0.2",
-    "critters": "^0.0.23",
     "html-minifier": "^4.0.0",
     "markdown-it-attrs": "^4.3.1",
-    "markdown-it-bracketed-spans": "^1.0.1",
     "markdown-it-image-figures": "^2.1.1"
   },
   "devDependencies": {

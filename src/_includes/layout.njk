@@ -18,12 +18,12 @@
     <meta property="og:description" content="{{ description }}">
     <meta property="og:url" content="https://sickfunny.co{{ page.url }}">
     <link rel="icon" href="/favicon.png" type="image/png">
-    <link rel="stylesheet" href="{{ 'src/css/styles.css' | hashedCss }}" />
+    <style>{% include "../css/styles.css" %}</style>
   </head>
   <body>
 
     <header>
-      <div class="title"><a href="/" rel="home" aria-label="sickfunny homepage"><strong>sick</strong>funny x&#41;</a></div>
+      <a href="/" rel="home" class="title"><strong>sick</strong>funny &#215;&#41;</a>
     </header>
 
     <main>
@@ -31,8 +31,8 @@
     </main>
     
     <footer>
-      <div>log: build completed — 0 warnings, 0 errors</div>
-      <div>log: loaded in <span id="load-time"></span></div>
+      log: build completed — 0 warnings, 0 errors<br>
+      log: loaded in <span id="load-time"></span>
     </footer>
 
     <script>
