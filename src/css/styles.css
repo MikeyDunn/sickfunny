@@ -136,18 +136,13 @@ small {
 picture:has(img.product) {
   float: left;
   max-width: 150px;
-  margin: 0.25rem 1.5rem 1rem 0;
+  margin: 0.5rem 1.5rem 0rem 0;
   font-size: 0;
 
   img {
     width: 150px;
     height: 150px;
   }
-}
-
-.product-link {
-  margin-bottom: -1rem;
-  display: block;
 }
 
 /* Responsive tweaks */
