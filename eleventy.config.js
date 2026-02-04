@@ -1,4 +1,4 @@
-import { minify } from 'html-minifier'
+import { minify } from 'html-minifier-terser'
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import rssPlugin from '@11ty/eleventy-plugin-rss'
 import MarkdownIt from 'markdown-it'
@@ -56,9 +56,9 @@ export default function (eleventyConfig) {
   })
 
   // Minify HTML
-  eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
-    if (outputPath && outputPath.endsWith('.html')) {
-      return minify(content, {
+  eleventyConfig.addTransform('htmlmin', async function (content, outputPath) {
+    if (outputPath?.endsWith('.html')) {
+      return await minify(content, {
         useShortDoctype: true,
         removeComments: true,
         collapseWhitespace: true,

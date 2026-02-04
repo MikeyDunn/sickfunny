@@ -5,20 +5,20 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>sickfunny</title>
-  <link href="https://sickfunny.com/"/>
-  <link href="https://sickfunny.com/feed.xml" rel="self"/>
+  <link href="https://sickfunny.co/"/>
+  <link href="https://sickfunny.co/feed.xml" rel="self"/>
   <updated>{{ collections.post | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
-  <id>https://sickfunny.com/</id>
+  <id>https://sickfunny.co/</id>
   <author>
     <name>sickfunny</name>
   </author>
   {%- for post in collections.post | reverse %}
   <entry>
     <title>{{ post.data.title }}</title>
-    <link href="https://sickfunny.com{{ post.url }}"/>
+    <link href="https://sickfunny.co{{ post.url }}"/>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
-    <id>https://sickfunny.com{{ post.url }}</id>
-    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls("https://sickfunny.com" + post.url) }}</content>
+    <id>https://sickfunny.co{{ post.url }}</id>
+    <summary>{{ post.data.description }}</summary>
   </entry>
   {%- endfor %}
 </feed>
