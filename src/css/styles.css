@@ -114,15 +114,6 @@ a {
   white-space: nowrap;
 }
 
-button {
-  font: inherit;
-  background: none;
-  border: none;
-  color: #BA5850;
-  cursor: pointer;
-  text-decoration: underline;
-}
-
 /* Custom */
 article li {
   margin: 0 0 0 1.5rem;
@@ -168,33 +159,5 @@ picture:has(img.product) img {
 
   #merch .container {
     grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
-  }
-
-  body {
-    background: #1a1a1a;
-    color: #e0e0e0;
-  }
-
-  body>header {
-    border-color: #e0e0e0;
-  }
-
-  footer {
-    border-color: #444;
-  }
-
-  pre {
-    background: #2a2a2a;
-  }
-
-  img {
-    filter: grayscale(0.6);
   }
 }
