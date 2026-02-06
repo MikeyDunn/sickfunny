@@ -37,7 +37,7 @@ export default function (eleventyConfig) {
     collectionApi.getAll().forEach(item => {
       if (item.data.tags) {
         let tags = Array.isArray(item.data.tags) ? item.data.tags : [item.data.tags]
-        tags.forEach(tag => {
+        tags.filter(tag => tag !== 'post').forEach(tag => {
           if (!tagMap.has(tag)) {
             tagMap.set(tag, 1)
           } else {
