@@ -29,14 +29,9 @@ export default function (eleventyConfig) {
   eleventyConfig.setLibrary('md', md)
 
   // Passthrough
-  eleventyConfig.addPassthroughCopy('src/favicon.png')
-  eleventyConfig.addPassthroughCopy('src/manifest.json')
   eleventyConfig.addPassthroughCopy({ 'src/public': '/' })
 
   // Collections
-  eleventyConfig.addCollection('post', function (collectionApi) {
-    return collectionApi.getFilteredByGlob('./src/posts/**/*.md')
-  })
   eleventyConfig.addCollection('tagList', function (collectionApi) {
     let tagMap = new Map()
     collectionApi.getAll().forEach(item => {
