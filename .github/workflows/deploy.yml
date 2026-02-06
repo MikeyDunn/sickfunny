@@ -41,12 +41,6 @@ jobs:
         run: |
           aws s3 sync _site/img s3://${{ secrets.AWS_S3_BUCKET }}/img \
             --cache-control "public, max-age=31536000, immutable"
-      
-      - name: Invalidate CloudFront Distribution
-        uses: chetan/invalidate-cloudfront-action@v2.4
-        env:
-          DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
-          PATHS: '/*'
-          AWS_REGION: 'us-east-1'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+      - name: Invalidate CloudFront
+        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.DISTRIBUTION }} --paths "/*"
