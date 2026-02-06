@@ -31,7 +31,7 @@ export default function (eleventyConfig) {
   // Passthrough
   eleventyConfig.addPassthroughCopy('src/favicon.png')
   eleventyConfig.addPassthroughCopy('src/manifest.json')
-  eleventyConfig.addPassthroughCopy('src/public/**')
+  eleventyConfig.addPassthroughCopy({ 'src/public': '/' })
 
   // Collections
   eleventyConfig.addCollection('post', function (collectionApi) {
