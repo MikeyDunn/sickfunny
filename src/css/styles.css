@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 /* Body and container */
 body {
   font-family: system-ui, sans-serif;
@@ -20,7 +25,7 @@ body>header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #000;
 }
 
 footer {
