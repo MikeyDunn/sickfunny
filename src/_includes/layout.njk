@@ -38,6 +38,14 @@
     </footer>
 
     <script>
+      console.log(`
+     _      _     __
+ ___(_) ___| | __/ _|_   _ _ __  _ __  _   _
+/ __| |/ __| |/ / |_| | | | '_ \\| '_ \\| | | |
+\\__ \\ | (__|   <|  _| |_| | | | | | | | |_| |
+|___/_|\\___|_|\\_\\_|  \\__,_|_| |_|_| |_|\\__, |
+                                       |___/
+`);
       onload = () => {
         const [n] = performance.getEntriesByType('navigation');
         document.getElementById('load-time').textContent = `${Math.round(n?.domContentLoadedEventEnd)}ms`;
