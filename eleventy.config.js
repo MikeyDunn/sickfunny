@@ -32,12 +32,16 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'src/public': '/' })
 
   // Collections
+  eleventyConfig.addCollection('post', function (collectionApi) {
+    return collectionApi.getFilteredByGlob('./src/posts/**/*.md')
+  })
+
   eleventyConfig.addCollection('tagList', function (collectionApi) {
     let tagMap = new Map()
     collectionApi.getAll().forEach(item => {
       if (item.data.tags) {
         let tags = Array.isArray(item.data.tags) ? item.data.tags : [item.data.tags]
-        tags.filter(tag => tag !== 'post').forEach(tag => {
+        tags.forEach(tag => {
           if (!tagMap.has(tag)) {
             tagMap.set(tag, 1)
           } else {
