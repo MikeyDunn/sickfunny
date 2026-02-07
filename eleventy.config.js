@@ -14,10 +14,10 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     extensions: 'html',
     formats: ['avif', 'webp'],
-    widths: [150, 300, 320, 640, 1024],
+    widths: [320, 640, 1280],
     defaultAttributes: {
       loading: 'lazy',
-      sizes: '100vw',
+      sizes: '(max-width: 640px) 100vw, 640px',
       decoding: 'async',
     },
   })
@@ -78,6 +78,7 @@ export default function (eleventyConfig) {
   })
 
   return {
+    cleanOutput: true,
     dir: {
       input: 'src',
       includes: '_includes',
