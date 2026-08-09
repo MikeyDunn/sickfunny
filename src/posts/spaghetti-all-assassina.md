@@ -9,10 +9,10 @@ tags:
 readTime: "4 minutes"
 author: sickfunny
 description: >
-  Spaghetti all'assassina was one of the first dishes I picked up to restart my interest in cooking. I kind of gave up on it for a while when DoorDash was blowing up and I could order twice a day from an endless supply of restaurants. Then this dish started showing up in my YouTube Shorts from different creators, and the method looks wrong: you burn dry pasta in a pan, then feed it sauce until it decides to cooperate. The technique rewards patience and a small appetite for ruin. Useful traits at the stove and elsewhere.
+  Spaghetti all'assassina was one of the first dishes I picked up to restart my interest in cooking. I kind of gave up on making my own food for a while when my wife took over creative control in the kitchen and began serving what was dubbed Mom Slop. Simmered ground chicken, boiled noodles and pasta sauce dumped on top. This dish started showing up in my YouTube Shorts from different creators and it always inspired me on what could be done when thinking about outside of the box culinarily. The method looks wrong: you burn dry pasta in a pan, then feed it sauce until it decides to cooperate. The technique rewards patience and a small appetite for ruin. Useful traits at the stove and elsewhere.
 ---
 
-Spaghetti all'assassina was one of the first dishes I picked up to restart my interest in cooking. I kind of gave up on it for a while when DoorDash was blowing up and I could order twice a day from an endless supply of restaurants. Then this dish started showing up in my YouTube Shorts from different creators, and the method looks wrong: you burn dry pasta in a pan, then feed it sauce until it decides to cooperate. The technique rewards patience and a small appetite for ruin. Useful traits at the stove and elsewhere. 
+Spaghetti all'assassina was one of the first dishes I picked up to restart my interest in cooking. I kind of gave up on making my own food for a while when my wife took over creative control in the kitchen and began serving what was dubbed Mom Slop. Simmered ground chicken, boiled noodles and pasta sauce dumped on top. This dish started showing up in my YouTube Shorts from different creators and it always inspired me on what could be done when thinking outside of the box culinarily. The method looks wrong: you burn dry pasta in a pan, then feed it sauce until it decides to cooperate. The technique rewards patience and a small appetite for ruin. Useful traits at the stove and elsewhere. 
 
 I learned a lot from this recipe, most of it about waiting and about how often I pull things off the heat too early, not because they're done but because I am. This dish doesn't allow for that. It makes you stand there and watch something darken and char without stepping in.
 
@@ -29,7 +29,7 @@ You don't need much. It's better if you don't.
 Optional, if you insist: a knob of butter to finish; a grated hard cheese at the table. Meat and vegetables are tourists in this dish. Leave them out on your first run so you can hear what's happening. In fact I typically serve the well seasoned ground whatever dry, on the side. Pro tip: we torture that too.
 
 ## PATIENCE
-Most of my cooking failures come down to timing, and this one is strict about it in a way most recipes aren't. The pasta has to sit still long enough to take on color, and the sauce has to reduce until it stops being sauce and starts being lacquer. On my first attempt the browning alone took forever. 
+Most of my cooking failures come down to timing, and this one is strict about it in a way most recipes aren't. The pasta has to sit still long enough to take on color, and the sauce has to reduce until it stops being sauce and starts being lacquer. On my first attempt the browning alone took forever. Dry pasta sitting in a bare pan looks like a mistake, and I kept the heat too low to commit. 
 
 The hard part is that everything in you wants to fuss with it. Normally you can quiet that urge to break the tension with a quick stir or a taste, but here you just have to stand there and keep the screaming on the inside. Move the pasta before it caramelizes and you get mush instead of crisp.
 
