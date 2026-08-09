@@ -44,19 +44,13 @@ There's a controlled burn at the center of this, somewhere short of cremation. C
 The secret ingredient, as always, is suffering. Mostly yours. The pasta suffers too, but it doesn't complain about it the way you will. You'll want to step in and save it from itself, and the whole trick is not to. Let it blacken in spots, let the edges curl and crisp and threaten to go too far, and leave them there.
 
 ## INSTRUCTIONS
-**Pan + oil.** Use a wide stainless or cast-iron skillet. Medium-high heat. Add oil until it shimmers.
-
-**Toast the dry pasta.** Lay the spaghetti in mostly one layer. Press lightly so it all makes contact. Do not move it. After ~90 seconds you'll see spotty brown. Flip sections with tongs; toast the other side ~60–90 seconds. This is where it starts to feel wrong. Trust it anyway.
-
-**Garlic in, briefly.** Scoot pasta aside, bloom the smashed garlic and a pinch of chili in the oil for ~20 seconds. Bury it under the pasta before it burns. Burned garlic tastes like regret.
-
-**Feed the pasta.** Pour in just enough sauce to come halfway up the noodles. Add salt. Let it reduce until the liquid is nearly gone and the edges begin to crisp. Do not stir; at most, shake the pan to loosen sticking.
-
-**Repeat.** Pour in more sauce from the jar. Reduce. Crisp. You'll do this 2–4 times until the pasta softens and the sauce becomes lacquer. Each time it will feel like you're one pour away from ruining it.
-
-**Finish.** Kill the heat. Swirl in a small knob of butter or a drizzle of oil if you want. Let it sit 60 seconds.
-
-**Serve.** Plate in a flat pile so the crisp edges survive. A little bit of cheese to take the "what have I done" edge off.
+- Pan + oil. Use a wide stainless or cast-iron skillet. Medium-high heat. Add oil until it shimmers.
+- Toast the dry pasta. Lay the spaghetti in mostly one layer. Press lightly so it all makes contact. Do not move it. After ~90 seconds you'll see spotty brown. Flip sections with tongs; toast the other side ~60–90 seconds. This is where it starts to feel wrong. Trust it anyway.
+- Garlic in, briefly. Scoot pasta aside, bloom the smashed garlic and a pinch of chili in the oil for ~20 seconds. Bury it under the pasta before it burns. Burned garlic tastes like regret.
+- Feed the pasta. Pour in just enough sauce to come halfway up the noodles. Add salt. Let it reduce until the liquid is nearly gone and the edges begin to crisp. Do not stir; at most, shake the pan to loosen sticking.
+- Repeat. Pour in more sauce from the jar. Reduce. Crisp. You'll do this 2–4 times until the pasta softens and the sauce becomes lacquer. Each time it will feel like you're one pour away from ruining it.
+- Finish. Kill the heat. Swirl in a small knob of butter or a drizzle of oil if you want. Let it sit 60 seconds.
+- Serve. Plate in a flat pile so the crisp edges survive. A little bit of cheese to take the "what have I done" edge off.
 
 ## NOTES (SO YOU DON'T HATE YOURSELF)
 If it's sticking violently, your heat is too low or your pan is too crowded. If it's smoking aggressively, you went too far; back off.
