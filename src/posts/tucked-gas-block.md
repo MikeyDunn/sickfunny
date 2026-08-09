@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 eleventyComputed:
-  title: "tucked gas block"
+  title: "a magic trick"
 date: 2026-03-23
 tags:
   - hardware
