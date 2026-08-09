@@ -14,7 +14,7 @@ description: >
 
 My first AR-15 came in two halves, the complete upper and the complete lower. Then come the upgrades, and as you get more comfortable with the system the gun turns into the AR of Theseus. A build transformed piece by piece until none of the original remains. The problem with upgrading one part at a time is that every decision is locked into past ignorance. With that AR I saw mediocrity in my future and decided to start again from scratch.
 
-![Completed .300 BLK AR-15 with tucked gas block, Magpul furniture, and Dead Air Nomad-L suppressor](/img/tucked-gas-block-build.webp "Sony A7III • 28mm ƒ/2.0"){sizes="(max-width: 480px) 320px, 640px"}
+![Completed .300 BLK AR-15 with tucked gas block, Magpul furniture, and Dead Air Nomad-L suppressor](/img/tucked-gas-block-build.webp "Sony A7III • 28mm ƒ/2.8 1/100s ISO 100"){sizes="(max-width: 480px) 320px, 640px"}
 
 ## NO FREE ADVERTISING
 
