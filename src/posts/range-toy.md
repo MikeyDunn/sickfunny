@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 eleventyComputed:
-  title: "a magic trick"
+  title: "range toy"
 date: 2026-03-23
 tags:
   - hardware
@@ -16,14 +16,6 @@ My first AR-15 came in two halves, the complete upper and the complete lower. Th
 
 ![Completed .300 BLK AR-15 with tucked gas block, Magpul furniture, and Dead Air Nomad-L suppressor](/img/tucked-gas-block-build.webp "Sony A7III • 28mm ƒ/2.8 1/100s ISO 100"){sizes="(max-width: 480px) 320px, 640px"}
 
-## NO FREE ADVERTISING
-
-I have a rule of no free advertising on my tools. Finding unmarked components for AR-15s is becoming harder especially on higher end gear, everyone wants to add their Gucci tag.
-
-Rollmarks on lowers seems to be table stakes, so finding something clean and unmolested typically ends you up in billet land. This was a win-win in my opinion as most billet uppers and lowers have a more modern aesthetic with same manual of arms. You even typically get more options of features (or lack thereof) with these custom milled parts. I opted for no forward assist or dust cover. This is a range toy, so let's have it looking sexy.
-
-Occasionally the hunt can have you questioning whether the time spent is worth it, but I found a gem of a lower by the manufacturer Runner Runner Guns. Super clean, no rollmark, just enough edginess. And of course the company went under several years before with no stock available. However, persistence is key to those with rabbit hole tendencies. With enough searching, I found one for sale on Gunbroker for a reasonable price. I won't be warrantying a hunk of metal anyway, right?
-
 ## A MAGIC TRICK
 
 Basically what inspired this whole build was a one off photo I saw on the old internet. An AR-15 so clean, you couldn't see its gas block, its barrel, its muzzle device. A smooth transition from handguard to suppressor. It had that MP5SD adjacent cool factor or integrally suppressed carbine. With some mysteriousness, like a magic trick.
@@ -35,6 +27,14 @@ Reverse image searching, the perfectly crafted google search, several forum post
 The standard Magpul MOE handguard is designed to nest around an A2 front sight base. But with the 5/8" handguard cap timed out against a low-profile gas block with a thin shim the handguard halves could drop in without binding. The perfect length barrel for this is 8" ($108) and I went with the Anderson adjustable gas block as it was the smallest I could find.
 
 These were the best pieces I could find that others had already tried. Other configurations may be possible, but be prepared to try different parts until it clicks.
+
+## NO FREE ADVERTISING
+
+I have a rule of no free advertising on my tools. Finding unmarked components for AR-15s is becoming harder especially on higher end gear, everyone wants to add their Gucci tag.
+
+Rollmarks on lowers seems to be table stakes, so finding something clean and unmolested typically ends you up in billet land. This was a win-win in my opinion as most billet uppers and lowers have a more modern aesthetic with same manual of arms. You even typically get more options of features (or lack thereof) with these custom milled parts. I opted for no forward assist or dust cover. This is a range toy, so let's have it looking sexy.
+
+Occasionally the hunt can have you questioning whether the time spent is worth it, but I found a gem of a lower by the manufacturer Runner Runner Guns. Super clean, no rollmark, just enough edginess. And of course the company went under several years before with no stock available. However, persistence is key to those with rabbit hole tendencies. With enough searching, I found one for sale on Gunbroker for a reasonable price. I won't be warrantying a hunk of metal anyway, right?
 
 ## THE GLOCK OF FURNITURE
 
