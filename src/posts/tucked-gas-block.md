@@ -14,7 +14,7 @@ description: >
 
 My first AR-15 came in two halves, the complete upper and the complete lower. Then come the upgrades, and as you get more comfortable with the system the gun turns into the AR of Theseus. A build transformed piece by piece until none of the original remains. The problem with upgrading one part at a time is that every decision is locked into past ignorance. With that AR I saw mediocrity in my future and decided to start again from scratch.
 
-![Completed .300 BLK AR-15 with tucked gas block, Magpul furniture, and Dead Air Nomad-L suppressor](/img/tucked-gas-block-build.webp){sizes="(max-width: 480px) 320px, 640px"}
+![Completed .300 BLK AR-15 with tucked gas block, Magpul furniture, and Dead Air Nomad-L suppressor](/img/tucked-gas-block-build.webp "Sony A7III • 28mm ƒ/2.0"){sizes="(max-width: 480px) 320px, 640px"}
 
 ## NO FREE ADVERTISING
 
@@ -30,7 +30,7 @@ Basically what inspired this whole build was a one off photo I saw on the old in
 
 Reverse image searching, the perfectly crafted google search, several forum posts later and I was only getting hints at a direction. Until I finally found a post in the Build It Yourself forum on ar15.com. It turns out there's a dissipator-style technique where you tuck a low-profile adjustable gas block under the handguard, then secure the handguard retainer cap between the gas block and muzzle device to hold everything in place.
 
-![Tucked gas block under Magpul MOE SL handguard showing the Anderson adjustable gas block and handguard retainer cap](/img/tucked-gas-block.jpg){sizes="(max-width: 480px) 320px, 640px"}
+![Tucked gas block under Magpul MOE SL handguard showing the Anderson adjustable gas block and handguard retainer cap](/img/tucked-gas-block.jpg "iPhone 12 • 26mm ƒ/1.6 1/143s ISO 32"){sizes="(max-width: 480px) 320px, 640px"}
 
 The standard Magpul MOE handguard is designed to nest around an A2 front sight base. But with the 5/8" handguard cap timed out against a low-profile gas block with a thin shim the handguard halves could drop in without binding. The perfect length barrel for this is 8" ($108) and I went with the Anderson adjustable gas block as it was the smallest I could find.
 
