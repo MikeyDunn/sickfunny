@@ -29,19 +29,19 @@ You don't need much. It's better if you don't.
 Optional, if you insist: a knob of butter to finish; a grated hard cheese at the table. Meat and vegetables are tourists in this dish. Leave them out on your first run so you can hear what's happening. In fact I typically serve the well seasoned ground whatever dry, on the side. Pro tip: we torture that too.
 
 ## PATIENCE
-Most of my cooking failures come down to timing, and this one is strict about it in a way most recipes aren't. The pasta has to sit still long enough to take on color, and the sauce has to reduce until it stops being sauce and starts being lacquer. On my first attempt the browning alone took forever. Dry pasta sitting in a bare pan looks like a mistake, and I kept the heat too low to commit. 
+Most of my cooking failures come down to timing, and this one is strict about it in a way most recipes aren't. The pasta has to sit still long enough to take on color, and the sauce has to reduce until it stops being sauce and starts being lacquer. On my first attempt the browning alone took forever. Dry pasta sitting in a bare pan looks like a mistake, and I kept the heat too low to commit. I also used rotini instead of spaghetti, which added a good amount of variety in the char. The kind of thing you only learn scraping the bottom of the pantry for ingredients. 
 
 The hard part is that everything in you wants to fuss with it. Normally you can quiet that urge to break the tension with a quick stir or a taste, but here you just have to stand there and keep the screaming on the inside. Move the pasta before it caramelizes and you get mush instead of crisp.
 
 The slight added crunch is proof this was cooked, not poured out of a tin can.
 
 ## CONCENTRATE
-The sauce goes straight into the pan. No extra pot, no prep work. Just tomato sauce, salt, and chili flakes, dumped in when the pasta's ready. Fair warning, when the sauce meets the oil it starts popping and sending hot juice everywhere.
+The sauce goes straight into the pan. No extra pot, no prep work. Just tomato sauce, salt, and chili flakes, dumped in when the pasta's ready. Adding it slowly and simmering it down concentrates the flavor, which makes even bad tomato sauce pretty good. That's why the list says the cheap kind. Fair warning, when the sauce meets the oil it starts popping and sending hot juice everywhere.
 
 ## SUFFERING
 There's a controlled burn at the center of this, somewhere short of cremation. You'll smell when it crosses over. A little smoke is fine, but a smoke alarm is a review. Keep the heat lower than you think and wait it out.
 
-The secret ingredient is suffering. Mostly yours. You'll want to step in and save it, and the whole trick is not to. Let it blacken in spots and let the edges crisp past where feels safe.
+The secret ingredient is suffering. Mostly yours. You'll want to step in and save it, and the whole trick is not to. Let it blacken in spots and let the edges crisp past what feels safe.
 
 ## INSTRUCTIONS
 - Pan + oil. Use a wide stainless or cast-iron skillet. Medium-high heat. Add oil until it shimmers.
@@ -59,3 +59,5 @@ Salt in the sauce, not on the pasta. Surface salt never makes it in.
 
 ## CONCLUSION
 Technically we made dinner. Mostly we practiced watching something burn without saving it. You can call that cooking if you want to.
+
+![Plated spaghetti all'assassina made with rotini, browned cheese on top, the well seasoned ground whatever dry on the side](/img/spaghetti-all-assassina.jpg){sizes="(max-width: 480px) 320px, 640px"}
