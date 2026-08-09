@@ -5,7 +5,7 @@ eleventyComputed:
 date: 2026-03-23
 tags:
   - hardware
-  - guns
+  - firearms
 readTime: "7 minutes"
 author: sickfunny
 description: >
