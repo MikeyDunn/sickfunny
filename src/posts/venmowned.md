@@ -9,7 +9,7 @@ tags:
 readTime: "2 minutes"
 author: sickfunny
 description: >
-  This project isn’t new. I built it almost a decade ago, a simple CLI tool to send my friends pennies through Venmo, each with an unsolicited cat fact. I wrote it mostly to amuse myself, and maybe irritate them a little. What surprised me is that it still works. The API hasn’t changed. The tokens still authenticate. The endpoints, still listening.
+  This project isn’t new. I built it almost a decade ago, a simple CLI tool to send my friends pennies through Venmo, each with an unsolicited cat fact. I wrote it mostly to amuse myself, and maybe irritate them a little. What surprised me is that it still works. The API hasn’t changed. The token still authenticates. The endpoints, still listening.
 ---
 
 Every year, the internet closes off a little more. Reddit, Facebook, Instagram, X. APIs deprecated, endpoints locked down, rate limits tightened. Platforms that once encouraged building on top of them now treat access like a liability. The web we used to extend, remix, and play with has become a walled garden of official integrations and paywalled APIs.

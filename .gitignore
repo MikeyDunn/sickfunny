@@ -24,5 +24,8 @@ img/tmp/
 .env
 .env.*
 
+# personal voice guide
+CLAUDE.md
+
 # lockfiles
 package-lock.json

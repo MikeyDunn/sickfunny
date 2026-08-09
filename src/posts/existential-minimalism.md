@@ -30,7 +30,7 @@ What is the sacrifice for minimalism? Eleventy provides a small subset of plugin
 
 After all it's only a static site generator. The friction is yours to navigate, you'll have to decide what actually matters. And maybe that's the point.
 
-## DELIVERED IN 100ms OR ITS FREE
+## DELIVERED IN 100ms OR IT'S FREE
 The final artifacts are hosted in an S3 bucket and served through CloudFront with aggressive caching headers. There's no database, no JS bundle, no loading spinner. Just content rendered ahead of time, sitting quietly, waiting to be seen.
 
 ## CONCLUSION
