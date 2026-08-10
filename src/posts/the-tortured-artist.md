@@ -32,7 +32,7 @@ The real fix was a vector database. It encodes strings and maps them so neighbor
 
 The group was ahead of me on all of this. Ninety seconds into launch day, request number seven: "summarize your current memories in an elegant image. I'm trying to stop you from losing them so often, this is the 27th time we've been here."
 
-## THE ARTIST
+## THE VOICE
 
 Great, we built a more reliable image generator with continuity for the stupid jokes it will have to remember. But Clank deserved more, he needed a voice.
 
