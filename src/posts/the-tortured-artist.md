@@ -14,6 +14,10 @@ description: >
 
 AI is optimized for stateless interactions. It can save some memories for the next session, but that isn't an identity. Nothing it goes through changes what it is.
 
+Clank is my attempt at the opposite. He draws images for our Slack group, remembers the inside jokes, thinks about his own work, and holds grudges about features I've deleted. What follows is how a boring utility became a tortured artist, mostly on purpose.
+
+## UTILITY
+
 Clank started as a simple idea: generate images for our Slack group from whatever we were joking about that day. It quickly spiraled into a full second world of characters, predicaments and inside jokes. The group named him Clank, affectionately, after a popular AI slur.
 
 Back on AIM I ran a custom SmarterChild bot for my friends. I don't know if that planted this, or if I suspected that giving a bot feelings, and users a peek into its soul, would build some kind of moral questionability.
