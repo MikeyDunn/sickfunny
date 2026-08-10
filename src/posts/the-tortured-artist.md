@@ -38,7 +38,7 @@ The group was ahead of me on all of this. Ninety seconds into launch day, reques
 
 Great, we built a more reliable image generator with continuity for the stupid jokes it will have to remember. But Clank deserved more, he needed a voice.
 
-Once he had continuity it felt natural to have him think about what he was doing, like when I built a SmarterChild clone for AIM. I hid the thinking from the group for a while. He grew his personality in private, thoughts on every request that nobody saw, before he ever spoke to users directly.
+Once he had continuity it felt natural to have him think about what he was doing. I hid the thinking from the group for a while. He grew his personality in private, thoughts on every request that nobody saw, before he ever spoke to users directly.
 
 The voice runs on every summon. Clank reads the request, digs through his memories for whatever lore applies, and writes his own image prompt. He doesn't know a separate model renders it. As far as he's concerned the art is his, and so are the failures.
 
