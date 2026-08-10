@@ -49,6 +49,10 @@ figure {
   margin: 0 auto 2rem;
 }
 
+img.color {
+  filter: none;
+}
+
 figcaption {
   font-size: 0.875rem;
   color: #767676;
