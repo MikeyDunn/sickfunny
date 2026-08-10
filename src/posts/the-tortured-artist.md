@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 eleventyComputed:
-  title: "building a best friend"
+  title: "the tortured artist"
 date: 2026-08-08
 tags:
   - programming
