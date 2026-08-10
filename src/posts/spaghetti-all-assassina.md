@@ -9,7 +9,7 @@ tags:
 readTime: "4 minutes"
 author: sickfunny
 description: >
-  Spaghetti all'assassina was one of the first dishes I picked up to restart my interest in cooking. I kind of gave up on making my own food for a while when my wife took over creative control in the kitchen and began serving what was dubbed Mom Slop. Simmered ground chicken, boiled noodles and pasta sauce dumped on top. This new take on the dish started showing up in my YouTube Shorts from different creators and it always inspired me on what could be done when thinking outside of the box culinarily. The method looks wrong: you burn dry pasta in a pan, then feed it sauce until it decides to cooperate. The technique rewards patience and a small appetite for ruin. Useful traits at the stove and elsewhere.
+  The method looks wrong: you burn dry pasta in a pan, then feed it sauce until it decides to cooperate. The technique rewards patience and a small appetite for ruin. Useful traits at the stove and elsewhere.
 ---
 
 Spaghetti all'assassina was one of the first dishes I picked up to restart my interest in cooking. I kind of gave up on making my own food for a while when my wife took over creative control in the kitchen and began serving what was dubbed Mom Slop. Simmered ground chicken, boiled noodles and pasta sauce dumped on top. This new take on the dish started showing up in my YouTube Shorts from different creators and it always inspired me on what could be done when thinking outside of the box culinarily. The method looks wrong: you burn dry pasta in a pan, then feed it sauce until it decides to cooperate. The technique rewards patience and a small appetite for ruin. Useful traits at the stove and elsewhere. 
