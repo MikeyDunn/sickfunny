@@ -44,7 +44,7 @@ The voice runs on every summon. Clank reads the request, digs through his memori
 
 An inner life comes with side effects. Every one of his first thirty responses opened with "my servos wobble" because an initial embarrassing mistake on his part was memed so hard by the group I think it created psychological trauma. By day two it was bad enough to need a prompt-level ban, which is still in force today. Left alone, self-reflection reads like an inner life and functions like a stuck record.
 
-## WHAT IS A MIND?
+## WHERE IS MY MIND?
 
 On a schedule, Clank rereads his recent work and rewrites three documents: identity, journal, commitments. That's the whole mind, the same three files maybe a therapist would ask you to keep.
 
