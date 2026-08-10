@@ -38,7 +38,7 @@ The slight added crunch is proof this was cooked, not poured out of a tin can.
 ## CONCENTRATE
 The sauce goes straight into the pan. No extra pot, no prep work. Just tomato sauce, salt, and chili flakes, dumped in when the pasta's ready. Adding it slowly and simmering it down concentrates the flavor, which makes even bad tomato sauce pretty good. That's why the list says the cheap kind. Fair warning, when the sauce meets the oil it starts popping and sending hot juice everywhere.
 
-## INSTRUCTIONS
+## SUFFERING
 - Pan + oil. I like a large pot, it keeps the splatter contained. Medium-high heat. Add oil until it shimmers.
 - Toast the dry pasta. Lay the spaghetti in mostly one layer. Press lightly so it all makes contact. Do not move it. After ~90 seconds you'll see spotty brown. Flip sections with tongs; toast the other side ~60–90 seconds. This is where it starts to feel wrong. Trust it anyway.
 - Garlic in, briefly. Scoot pasta aside, bloom the smashed garlic and a pinch of chili in the oil for ~20 seconds. Bury it under the pasta before it burns.
