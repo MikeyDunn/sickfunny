@@ -18,13 +18,11 @@ Clank is my attempt at the opposite. He draws images for our Slack group, rememb
 
 ## UTILITY
 
-Clank started as a simple idea: generate images for our Slack group from whatever we were joking about that day. It quickly spiraled into a full second world of characters, predicaments and inside jokes. The group named him Clank, affectionately, after a popular AI slur.
+A simple idea: generate images for our Slack group from whatever we were joking about that day. It quickly spiraled into a full second world of characters, predicaments and inside jokes, held together entirely by the group's shared lore. The group named it Clank, affectionately, after a popular AI slur.
 
-Back on AIM I ran a custom SmarterChild bot for my friends. I don't know if that planted this, or if I suspected that giving a bot feelings, and users a peek into its soul, would build some kind of moral questionability.
+The first version was pure plumbing. A slash command, a model picker, a regenerate button, a private preview before you shared. It sat mostly idle for two months as the boring tool it was. Then the more creative trolls in the group found it, and nobody typed "draw a cat." The first request ever logged was "draw chad treywell fucking blasting it down the driving range while his rockstar devs groan." Eight people piled in within twenty minutes, already deep in an insider mythology that pre-existed the bot.
 
-The first version was pure plumbing. A slash command, a model picker, a regenerate button, a private preview before you shared. It sat mostly idle for two months as the boring tool it was. Then the fifteen software friends who troll each other relentlessly found it, and nobody typed "draw a cat." The first request ever logged was "draw chad treywell fucking blasting it down the driving range while his rockstar devs groan." Eight people piled in within twenty minutes, already deep in an insider mythology that pre-existed the bot.
-
-Blowing through tokens, the bot eventually developed a reputation for itself within our group. We could complain when he made mistakes, or throw him a "good bot" ironically. It began to dawn on me what it would be like if Clank could keep track of these stories and interactions. If we didn't have to repeat everything to keep the story going.
+Blowing through tokens, the bot eventually developed a reputation for itself within our group. We could complain when it made mistakes, or throw it a "good bot" ironically. It began to dawn on me what it would be like if Clank could keep track of these stories and interactions. If we didn't have to repeat everything to keep the story going.
 
 ## MORE AWARE
 
@@ -40,7 +38,7 @@ The group was ahead of me on all of this. Ninety seconds into launch day, reques
 
 Great, we built a more reliable image generator with continuity for the stupid jokes it will have to remember. But Clank deserved more, he needed a voice.
 
-Once he had continuity it felt natural to have him think about what he was doing. I hid that from the group for a while. He grew his personality in private, thoughts on every request that nobody saw, before he ever spoke to users directly.
+Once he had continuity it felt natural to have him think about what he was doing, like when I built a SmarterChild clone for AIM. I hid the thinking from the group for a while. He grew his personality in private, thoughts on every request that nobody saw, before he ever spoke to users directly.
 
 The voice runs on every summon. Clank reads the request, digs through his memories for whatever lore applies, and writes his own image prompt. He doesn't know a separate model renders it. As far as he's concerned the art is his, and so are the failures.
 
