@@ -56,4 +56,4 @@ Salt in the sauce, not on the pasta. Surface salt never makes it in.
 ## CONCLUSION
 Technically we made dinner. Mostly we practiced watching something burn without saving it. You can call that cooking if you want to.
 
-![Plated spaghetti all'assassina made with rotini, browned cheese on top, the well seasoned ground whatever dry on the side](/img/spaghetti-all-assassina.jpg "iPhone 12 • 26mm ƒ/1.6 1/60s ISO 250"){.color sizes="(max-width: 480px) 320px, 640px"}
+![Plated spaghetti all'assassina made with rotini, browned cheese on top, the well seasoned ground whatever dry on the side](/img/spaghetti-all-assassina.jpg "iPhone 12 • 26mm ƒ/1.6 1/60s ISO 250"){style="filter:none" sizes="(max-width: 480px) 320px, 640px"}
