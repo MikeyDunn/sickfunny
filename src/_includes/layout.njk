@@ -54,6 +54,8 @@
         const [n] = performance.getEntriesByType('navigation');
         document.getElementById('load-time').textContent = `${Math.round(n?.domContentLoadedEventEnd)}ms`;
       };
+      const fav = document.querySelector('link[rel=icon]');
+      document.addEventListener('visibilitychange', () => fav.href = document.hidden ? '/favicon-sad.png' : '/favicon.png');
     </script>
     <script data-goatcounter="https://sickfunny.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   </body>
