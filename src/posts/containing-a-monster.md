@@ -8,6 +8,7 @@ tags:
   - home
 readTime: "4 minutes"
 author: sickfunny
+image: /img/containing-a-monster-fence.jpeg
 description: >
   Toddler-proofing your home is really just acknowledging that you now share living space with a small, relentless chaos agent whose only mission is to find and exploit every vulnerability in your environment. These are the products that help you maintain the illusion of control.
 ---

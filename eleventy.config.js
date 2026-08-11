@@ -1,5 +1,5 @@
 import { minify } from 'html-minifier-terser'
-import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
+import Image, { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import rssPlugin from '@11ty/eleventy-plugin-rss'
 import MarkdownIt from 'markdown-it'
 import markdownItAttrs from 'markdown-it-attrs'
@@ -76,6 +76,16 @@ export default function (eleventyConfig) {
       day: 'numeric',
       timeZone: 'UTC',
     })
+  })
+
+  eleventyConfig.addAsyncFilter('ogImage', async function (src) {
+    const metadata = await Image('./src' + src, {
+      widths: [1200],
+      formats: ['jpeg'],
+      outputDir: '_site/img/',
+      urlPath: '/img/',
+    })
+    return metadata.jpeg[0].url
   })
 
   eleventyConfig.addFilter('isoDate', function (value) {

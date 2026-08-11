@@ -8,6 +8,7 @@ tags:
   - cursed
 readTime: "4 minutes"
 author: sickfunny
+image: /img/spaghetti-all-assassina.jpg
 description: >
   The method looks wrong: you burn dry pasta in a pan, then feed it sauce until it decides to cooperate. The technique rewards patience and a small appetite for ruin. Useful traits at the stove and elsewhere.
 ---
