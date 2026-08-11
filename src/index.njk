@@ -6,9 +6,8 @@ description: dark humor, cursed experiments, and weird tools for anyone still bo
 
 <section id="merch">
   <h1>merch.</h1>
-  <ul class="container">
-    <li class="merch-item">
-      <a href="https://shop.sickfunny.co/listing/buy-litty-kitty" target="_blank" rel="noopener">
+  <div>
+    <a href="https://shop.sickfunny.co/listing/buy-litty-kitty" target="_blank" rel="noopener">
         <figure>
           <img 
             src="/img/sad-but-lit.jpg" 
@@ -20,10 +19,8 @@ description: dark humor, cursed experiments, and weird tools for anyone still bo
           />
           <figcaption>litty kitty . $22</figcaption>
         </figure>
-      </a>
-    </li>
-    <li class="merch-item">
-      <a href="https://shop.sickfunny.co/listing/get-smoke-meth" target="_blank" rel="noopener">
+    </a>
+    <a href="https://shop.sickfunny.co/listing/get-smoke-meth" target="_blank" rel="noopener">
         <figure>
           <img 
             src="/img/smoke-meth.jpg" 
@@ -35,10 +32,8 @@ description: dark humor, cursed experiments, and weird tools for anyone still bo
           />
           <figcaption>smoke meth . $22</figcaption>
         </figure>
-      </a>
-    </li>
-    <li class="merch-item">
-      <a href="https://shop.sickfunny.co/listing/can-t-stop-2025" target="_blank" rel="noopener">
+    </a>
+    <a href="https://shop.sickfunny.co/listing/can-t-stop-2025" target="_blank" rel="noopener">
         <figure>
           <img 
             src="/img/cant-stop.jpg" 
@@ -50,18 +45,15 @@ description: dark humor, cursed experiments, and weird tools for anyone still bo
           />
           <figcaption>can't stop . $22</figcaption>
         </figure>
-      </a>
-    </li>
-  </ul>
+    </a>
+  </div>
 </section>
 
 <section id="posts">
   <h1>latest posts.</h1>
-  <ul class="container">
-    {% for post in collections.post | reverse %}
-      <li>{% include "post-preview.njk" %}</li>
-    {% endfor %}
-  </ul>
+  {% for post in collections.post | reverse %}
+    {% include "post-preview.njk" %}
+  {% endfor %}
 </section>
 
 <section id="tags">
