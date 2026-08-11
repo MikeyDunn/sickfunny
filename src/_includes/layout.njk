@@ -13,7 +13,7 @@
     <link rel="canonical" href="https://sickfunny.co{{ page.url }}">
 
     {# Open Graph #}
-    <meta property="og:type" content="article">
+    <meta property="og:type" content="{% if layout == 'post.njk' %}article{% else %}website{% endif %}">
     <meta property="og:title" content="{{ title }} - sickfunny">
     <meta property="og:description" content="{{ description }}">
     <meta property="og:url" content="https://sickfunny.co{{ page.url }}">

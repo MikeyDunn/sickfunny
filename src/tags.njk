@@ -11,19 +11,15 @@ eleventyComputed:
   description: "sickfunny posts tagged with {{ tagObj.tag }}"
 ---
 
-{% if tagObj.tag == "all" %}
-  {% set postsForTag = collections.post %}
-{% else %}
-  {% set postsForTag = [] %}
-  {% for post in collections.post %}
-    {% if post.data.tags and tagObj.tag in post.data.tags %}
-      {% set _ = postsForTag.push(post) %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
+{% set postsForTag = [] %}
+{% for post in collections.post %}
+  {% if post.data.tags and tagObj.tag in post.data.tags %}
+    {% set _ = postsForTag.push(post) %}
+  {% endif %}
+{% endfor %}
 
 <section id="posts">
-  {% if tagObj.tag != "all" %}<h1>Posts tagged &ldquo;{{ tagObj.tag }}&rdquo;</h1>{% endif %}
+  <h1>Posts tagged &ldquo;{{ tagObj.tag }}&rdquo;</h1>
   {% for post in postsForTag | reverse %}
       {% include "post-preview.njk" %}
   {% endfor %}
