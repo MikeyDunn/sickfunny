@@ -93,7 +93,6 @@ export default function (eleventyConfig) {
   })
 
   return {
-    cleanOutput: true,
     dir: {
       input: 'src',
       includes: '_includes',
