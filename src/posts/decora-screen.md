@@ -81,4 +81,4 @@ Now what to do with this new power? A count down of remaining months in your ave
 ## CONCLUSION
 I hope this project inspires you to build something and distract you long enough to forget the quiet dread. Even if just for a second. 
 
-![installed decora screen](/img/decora-screen.jpg "iPhone 12 • 26mm ƒ/1.6 1/60s ISO 125"){sizes="(max-width: 480px) 320px, 640px"}
+![installed decora screen](/img/decora-screen.jpg "iPhone 12 • 26mm ƒ/1.6 1/60s ISO 125")

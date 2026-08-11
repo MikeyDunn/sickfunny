@@ -26,7 +26,7 @@ The other notable mention is the build quality. It is solid without being notice
 
 Longevity is the last word I'll use to describe the 55mm. I did a lot of growing with this lens. It has been with me from a novice to a novice who knows why their photos are bad. It is as capable as the shooter holding it. And it will stay in my bag, even when I'm packing pro-level glass. Because it’s good. Because it reminds me why I picked up a camera in the first place.
 
-![Deer standing in crowd in nara, japan](/img/holy-trinity-55mm.jpg "Sony A7 • 55mm ƒ/2.2 1/250s ISO 100"){sizes="(max-width: 480px) 320px, 640px"}
+![Deer standing in crowd in nara, japan](/img/holy-trinity-55mm.jpg "Sony A7 • 55mm ƒ/2.2 1/250s ISO 100")
 
 ## Sony FE 24mm f/1.4 GM
 Where do we go from the 55mm? How do we round out what's missing? Well shooting wide open is how you set yourself apart from the iphone riff-raff when you have to match their pixel count on instagram, so obviously it's time to go wider. 24mm? Sure I can deal with that. Eventually you'll wonder when that razor sharp depth of field is more of a liability than bleeding edge.
@@ -35,7 +35,7 @@ Having so much in frame takes some adjustment when you've spent your time blasti
 
 Something the 55mm and the 24mm share, which is a must for your trinity, is versatility. Photography comes in different forms, and my interests in concert and street photography were satiated with this purchase, but the 24mm had more to offer. Another trick up its sleeve is in the world of astrophotography. Where skills in timing and instinct are replaced by preparation and post production. A hobby that seems like it only reluctantly has similarities to photography. The learning curve and certainly mastery takes an incredible amount of time and practice. In a bag of three, I am happy to have the opportunity to scratch the itch, even if that itch was just mosquito bites, well past midnight under the stars.
 
-![Woman sitting in chic living room with professional outfit](/img/holy-trinity-24mm.jpg "Sony A7 • 24mm ƒ/1.4 1/250s ISO 320"){sizes="(max-width: 480px) 320px, 640px"}
+![Woman sitting in chic living room with professional outfit](/img/holy-trinity-24mm.jpg "Sony A7 • 24mm ƒ/1.4 1/250s ISO 320")
 
 ## Sony FE 70-200mm F2.8 GM OSS II
 The everything else lens. From 70mm to borderline intrusive, this lens covers the gamut. About the only acceptable time to pack a zoom is in the telephoto category. It will be difficult to distance yourself correctly with a large prime, so when you need a bit more flexibility that focal adjustment ring can be a shot savior. The [Sony 70-200mm GMII](https://amzn.to/3Zh2w99){target="_blank"} also has a great sized aperture, all things considered. And if you’ve started checking lab results, ultra-clear glass.
@@ -44,7 +44,7 @@ This beast of a lens will turn your backyard into an african safari with the opp
 
 The only major down side to the GMII is the voice in the back of your head suggesting you submit your life to the calling of the birders. How am I supposed to spend hours waiting for something to show up that flaps its wings at 100 miles per hour. No no, I'll focus on sports of course. But a shot of that beautiful eagle would look great.
 
-![Woman singing on stage with microphone at concert](/img/holy-trinity-200mm.jpg "Sony A7 • 200mm ƒ/2.8 1/500s ISO 3200"){sizes="(max-width: 480px) 320px, 640px"}
+![Woman singing on stage with microphone at concert](/img/holy-trinity-200mm.jpg "Sony A7 • 200mm ƒ/2.8 1/500s ISO 3200")
 
 ## MEDIUM FORMAT
 Why are we still here? Just to suffer?
