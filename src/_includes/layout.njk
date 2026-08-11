@@ -4,9 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://gc.zgo.at" crossorigin />
-    <link rel="dns-prefetch" href="https://gc.zgo.at" />
-
     <title>{{ title }} - sickfunny</title>
     <meta name="description" content="{{ description }}">
     {% if author %}<meta name="author" content="{{ author }}">{% endif %}
@@ -56,7 +53,12 @@
       };
       const fav = document.querySelector('link[rel=icon]');
       document.addEventListener('visibilitychange', () => fav.href = document.hidden ? '/favicon-sad.png' : '/favicon.png');
+      if (location.hostname === 'sickfunny.co') {
+        new Image().src = 'https://sickfunny.goatcounter.com/count?' + new URLSearchParams({
+          p: location.pathname, t: document.title, r: document.referrer,
+          s: `${screen.width},${screen.height},${devicePixelRatio}`
+        });
+      }
     </script>
-    <script data-goatcounter="https://sickfunny.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   </body>
 </html>
