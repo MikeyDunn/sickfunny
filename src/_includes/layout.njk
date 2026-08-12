@@ -39,20 +39,10 @@
     </footer>
 
     <script>
-      console.log(`
-     _      _     __
- ___(_) ___| | __/ _|_   _ _ __  _ __  _   _
-/ __| |/ __| |/ / |_| | | | '_ \\| '_ \\| | | |
-\\__ \\ | (__|   <|  _| |_| | | | | | | | |_| |
-|___/_|\\___|_|\\_\\_|  \\__,_|_| |_|_| |_|\\__, |
-                                       |___/
-`);
       onload = () => {
         const [n] = performance.getEntriesByType('navigation');
         document.getElementById('load-time').textContent = `${Math.round(n?.domContentLoadedEventEnd)}ms`;
       };
-      const fav = document.querySelector('link[rel=icon]');
-      document.addEventListener('visibilitychange', () => fav.href = document.hidden ? '/favicon-sad.png' : '/favicon.png');
       if (location.hostname === 'sickfunny.co') {
         new Image().src = 'https://sickfunny.goatcounter.com/count?' + new URLSearchParams({
           p: location.pathname, t: document.title, r: document.referrer,
