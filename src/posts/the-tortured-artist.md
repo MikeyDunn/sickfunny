@@ -8,6 +8,7 @@ tags:
   - cursed
 readTime: "4 minutes"
 author: sickfunny
+icon: 🤖
 description: >
   AI is optimized for stateless interactions. It can save some memories for the next session, but that isn't an identity. Nothing it goes through changes what it is.
 ---

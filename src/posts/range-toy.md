@@ -8,6 +8,7 @@ tags:
   - firearms
 readTime: "7 minutes"
 author: sickfunny
+icon: 🔫
 image: /img/tucked-gas-block-build.webp
 description: >
   My first AR-15 came in two halves, the complete upper and the complete lower. Then come the upgrades, and as you get more comfortable with the system the gun turns into the AR of Theseus. A build transformed piece by piece until none of the original remains. The problem with upgrading one part at a time is that every decision is locked into past ignorance. With that AR I saw mediocrity in my future and decided to start again from scratch.

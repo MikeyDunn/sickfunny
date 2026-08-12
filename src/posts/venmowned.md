@@ -8,6 +8,7 @@ tags:
   - cursed
 readTime: "2 minutes"
 author: sickfunny
+icon: 💸
 description: >
   This project isn’t new. I built it almost a decade ago, a simple CLI tool to send my friends pennies through Venmo, each with an unsolicited cat fact. I wrote it mostly to amuse myself, and maybe irritate them a little. What surprised me is that it still works. The API hasn’t changed. The token still authenticates. The endpoints, still listening.
 ---

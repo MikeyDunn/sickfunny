@@ -8,6 +8,7 @@ tags:
   - minimalism
 readTime: "6 minutes"
 author: sickfunny
+icon: 📷
 image: /img/holy-trinity-55mm.jpg
 description: >
   A photographer's holy trinity is the three lenses they will be buried with. You can cover a lot of ground with three lenses from a focal length perspective, or choose to completely disregard reason and become a bokeh whore while making some tough financial decisions. With that in mind, my weapon of choice is the Sony A7, which I won't be getting into for this article. If you know, you know.
