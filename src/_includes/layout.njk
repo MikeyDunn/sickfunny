@@ -6,14 +6,7 @@
 
     <title>{{ title }} - sickfunny</title>
     <meta name="description" content="{{ description }}">
-    {% if author %}<meta name="author" content="{{ author }}">{% endif %}
     <link rel="canonical" href="https://sickfunny.co{{ page.url }}">
-
-    {# Open Graph #}
-    <meta property="og:type" content="{% if layout == 'post.njk' %}article{% else %}website{% endif %}">
-    <meta property="og:title" content="{{ title }} - sickfunny">
-    <meta property="og:description" content="{{ description }}">
-    <meta property="og:url" content="https://sickfunny.co{{ page.url }}">
     {% if image %}
     <meta property="og:image" content="https://sickfunny.co{{ image | ogImage }}">
     <meta name="twitter:card" content="summary_large_image">
@@ -25,7 +18,7 @@
   <body>
 
     <header>
-      <a href="/" rel="home" class="title"><strong>sick</strong>funny &#215;&#41;</a>
+      <a href="/" class="title"><strong>sick</strong>funny &#215;&#41;</a>
       <a href="/feed.xml">rss.</a>
     </header>
 
