@@ -9,7 +9,8 @@ title: {{ title }}
     <p><i>
       [<time datetime="{{ page.date | isoDate }}">{{ page.date | date }}</time>]
       <br>
-      tags: {% for tag in tags %}<a href="/tags/{{ tag | slug }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
+      tags: {% for tag in tags %}<a href="/tags/{{ tag | slug }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% if author != "sickfunny" %}
+      <br>guest: {{ author }}{% endif %}
     </i></p>
   </header>
   {{ content | safe }}
