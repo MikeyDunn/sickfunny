@@ -28,14 +28,17 @@
     </main>
     
     <footer>
-      log: build completed — 0 warnings, 0 errors<br>
-      log: loaded in <span id="load-time"></span>
+      log: built {{ build.sha }} on {{ build.date }}<br>
+      log: served <span id="tx">—</span> over <span id="proto">—</span> in <span id="load">—</span>
     </footer>
 
     <script>
       onload = () => {
-        const [n] = performance.getEntriesByType('navigation');
-        document.getElementById('load-time').textContent = `${Math.round(n?.domContentLoadedEventEnd)}ms`;
+        const n = performance.getEntriesByType('navigation')[0];
+        if (!n) return;
+        document.getElementById('tx').textContent = (n.transferSize / 1024).toFixed(1) + 'KB';
+        document.getElementById('proto').textContent = n.nextHopProtocol || '—';
+        document.getElementById('load').textContent = Math.round(n.domContentLoadedEventEnd) + 'ms';
       };
       if (location.hostname === 'sickfunny.co') {
         new Image().src = 'https://sickfunny.goatcounter.com/count?' + new URLSearchParams({
